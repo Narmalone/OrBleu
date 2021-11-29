@@ -19,6 +19,9 @@ public class Farm : MonoBehaviour
     public GameObject ColorButton;
     public GameObject ButtonWhenLevelMax;
 
+    public FarmManager farmManager;
+
+
     public void Start()
     {
         CurrentFarmLevel = 1;
@@ -89,7 +92,8 @@ public class Farm : MonoBehaviour
                 ButtonWhenLevelMax.GetComponent<Button>().interactable = false;
             }
 
-            FindObjectOfType<FarmManager>().UpdateFarmLevel();
+            farmManager.UpdateFarmLevel(CurrentFarmLevel);
+
 
 
         }

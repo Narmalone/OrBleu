@@ -232,17 +232,25 @@ public class MontaubanExpe : MonoBehaviour
     //verifier si on peut valider
     public void checkValidate()
     {
+
+        print("CheckValidate");
         if(FindObjectOfType<Pastel>().myPastel <10 && gamemanager.CaravannePosseded > 0)
         {
             validateButton.GetComponent<Button>().interactable = false;
+            print("Validate Condition 1");
+
         }
         else if(gamemanager.CaravannePosseded == 0)
         {
             validateButton.GetComponent<Button>().interactable = false;
+            print("Validate Condition 2");
+
         }
         else if(FindObjectOfType<Pastel>().myPastel >=10 && gamemanager.CaravannePosseded > 0)
         {
             validateButton.GetComponent<Button>().interactable = true;
+            print("Validate Condition 3");
+
         }
     }
 

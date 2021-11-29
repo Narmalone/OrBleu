@@ -92,11 +92,13 @@ public class PointTrigger : MonoBehaviour
             {
                 Debug.LogError("Aucune zone");
             }
+            //Rajouter 1 caravane disponible comme elle est revenue
+            gamemanager.CaravannePosseded++;
+            print(gamemanager.CaravannePosseded);
+
             //Détruire la caravane
             Destroy(car.gameObject);
 
-            //Rajouter 1 caravane disponible comme elle est revenue
-            gamemanager.CaravannePosseded++;
 
 
 
