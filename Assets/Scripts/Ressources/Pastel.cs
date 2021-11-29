@@ -10,7 +10,7 @@ public class Pastel : MonoBehaviour
 
     private void Start()
     {
-        myPastel = 50;
+        myPastel = 10;
         GetComponent<TextMeshProUGUI>().text = myPastel.ToString();
 
     }

@@ -11,7 +11,7 @@ public class Gold : MonoBehaviour
 
     private void Start()
     {
-        myGold = 2000;
+        myGold = 750;
         GetComponent<TextMeshProUGUI>().text = myGold.ToString();
 
     }
