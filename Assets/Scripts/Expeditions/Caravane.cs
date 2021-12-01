@@ -9,7 +9,7 @@ public class Caravane : MonoBehaviour
     public bool isComingBack;
 
     //speed
-    float speed = 10;
+    float speed = 0.09f;
 
     //list point
     public List<GameObject> points;
