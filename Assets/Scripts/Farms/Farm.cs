@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class Farm : MonoBehaviour
 {
@@ -21,6 +22,10 @@ public class Farm : MonoBehaviour
 
     public FarmManager farmManager;
 
+    public bool ScaleColorButtonWhenTrue;
+
+    Color color1;
+       
 
     public void Start()
     {
@@ -50,13 +55,27 @@ public class Farm : MonoBehaviour
     {
         if (currentTime == 0)
         {
+            
             ColorButton.GetComponent<Image>().color = Color.green;
 
+            if (ScaleColorButtonWhenTrue == true)
+            {
+                //ColorButton.GetComponent<Image>().transform.DOScale(5f, 2f * Time.deltaTime);
+                ScaleColorButtonWhenTrue = false;
+
+            }
+            else if(ScaleColorButtonWhenTrue == false)
+            {
+                ColorButton.GetComponent<Image>().transform.DOScale(2f, 2f * Time.deltaTime);
+                ScaleColorButtonWhenTrue = true;
+            }
+            // ColorButton.GetComponent<Image>().transform.DOShakePosition(0.5f, 0.5f);
         }
         else
         {
-            ColorButton.GetComponent<Image>().color = Color.white;
-
+           
+            ColorUtility.TryParseHtmlString("#FF2D00", out color1);
+            ColorButton.GetComponent<Image>().color = color1;
         }
     }
 
@@ -68,6 +87,8 @@ public class Farm : MonoBehaviour
             currentTime = startingTime;
             FindObjectOfType<Pastel>().myPastel += 2 * CurrentFarmLevel;
             FindObjectOfType<Pastel>().UpdatePastel();
+            ColorButton.GetComponent<Image>().transform.DOScale(2f, 2f);
+            
             Update();
 
         }
