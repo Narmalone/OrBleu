@@ -28,6 +28,12 @@ public class JoueurDeplacement : MonoBehaviour
     void Update()
     {
 
+
+        if(Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Moved)
+        {
+            
+        }
+
         if (Input.touchCount == 2 && Input.GetTouch(0).phase == TouchPhase.Moved && Input.GetTouch(1).phase == TouchPhase.Moved)
         {
 
