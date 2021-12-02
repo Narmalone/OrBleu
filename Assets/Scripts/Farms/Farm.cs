@@ -22,10 +22,13 @@ public class Farm : MonoBehaviour
 
     public FarmManager farmManager;
 
-    public bool ScaleColorButtonWhenTrue;
+    private Animator anim;
+
 
     Color color1;
        
+
+
 
     public void Start()
     {
@@ -33,6 +36,7 @@ public class Farm : MonoBehaviour
         MaxFarmLevel = 5;
         currentTime = startingTime;
 
+        anim = GetComponent<Animator>();
 
     }
 
@@ -40,10 +44,17 @@ public class Farm : MonoBehaviour
     {
         currentTime -= 1 * Time.deltaTime;
 
+
         //si le temps arrive à 0 on peut récolter
         if (currentTime <= 0)
         {
             currentTime = 0;
+            anim.SetBool("Collected", true);
+
+        }
+        else if (currentTime > 0)
+        {
+            anim.SetBool("Collected", false);
 
         }
         ColorUpdate();
@@ -55,27 +66,15 @@ public class Farm : MonoBehaviour
     {
         if (currentTime == 0)
         {
-            
             ColorButton.GetComponent<Image>().color = Color.green;
 
-            if (ScaleColorButtonWhenTrue == true)
-            {
-                //ColorButton.GetComponent<Image>().transform.DOScale(5f, 2f * Time.deltaTime);
-                ScaleColorButtonWhenTrue = false;
-
-            }
-            else if(ScaleColorButtonWhenTrue == false)
-            {
-                ColorButton.GetComponent<Image>().transform.DOScale(2f, 2f * Time.deltaTime);
-                ScaleColorButtonWhenTrue = true;
-            }
-            // ColorButton.GetComponent<Image>().transform.DOShakePosition(0.5f, 0.5f);
         }
         else
         {
            
             ColorUtility.TryParseHtmlString("#FF2D00", out color1);
             ColorButton.GetComponent<Image>().color = color1;
+
         }
     }
 
@@ -86,9 +85,7 @@ public class Farm : MonoBehaviour
         {
             currentTime = startingTime;
             FindObjectOfType<Pastel>().myPastel += 2 * CurrentFarmLevel;
-            FindObjectOfType<Pastel>().UpdatePastel();
-            ColorButton.GetComponent<Image>().transform.DOScale(2f, 2f);
-            
+            FindObjectOfType<Pastel>().UpdatePastel();            
             Update();
 
         }

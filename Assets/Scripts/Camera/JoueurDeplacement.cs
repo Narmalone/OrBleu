@@ -8,12 +8,17 @@ public class JoueurDeplacement : MonoBehaviour
 
 
     public int speed = 2;
+    public float XZSpeed = 0.05f;
+
     public Camera selectedCamera;
+
     public float minPinchSpeed = 5.0F;
     public float varianceInDistances = 5.0F;
     private float touchDelta = 0.0F;
+
     private Vector2 prevDist = new Vector2(0, 0);
     private Vector2 curDist = new Vector2(0, 0);
+
     private float speedTouch0 = 0.0F;
     private float speedTouch1 = 0.0F;
 
@@ -28,10 +33,20 @@ public class JoueurDeplacement : MonoBehaviour
     void Update()
     {
 
+        if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Moved)
+        {  
 
-        if(Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Moved)
-        {
-            
+            //AJOUTER UN CHAMP QUI EMPECHE DALLER DE GAUCHE A DROITE//
+
+            Vector3 TouchDeltaPosition = Input.GetTouch(0).deltaPosition;
+            //Vector3 TouchDeltaPositionZ = Input.GetTouch(0).deltaPosition;
+
+            transform.Translate(-TouchDeltaPosition.x * XZSpeed * Time.deltaTime, 0f, 0f);
+            //transform.Translate(0f, 0f, TouchDeltaPositionZ.z * XZSpeed * Time.deltaTime);
+
+            speedTouch0 = Input.GetTouch(0).deltaPosition.magnitude / Input.GetTouch(0).deltaTime;
+
+
         }
 
         if (Input.touchCount == 2 && Input.GetTouch(0).phase == TouchPhase.Moved && Input.GetTouch(1).phase == TouchPhase.Moved)
