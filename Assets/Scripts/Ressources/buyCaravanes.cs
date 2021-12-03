@@ -8,30 +8,37 @@ public class buyCaravanes : MonoBehaviour
 
     GameManager gamemanager;
 
+    public GoldManager Goldmanager;
 
-    private void Start()
+    public GameObject AcheterCaravanne;
+
+    public Gold gold;
+
+    public void Start()
     {
         gamemanager = FindObjectOfType<GameManager>();
-
+        AcheterCaravanne.GetComponent<Button>().interactable = true;
     }
     public void buyCaravane()
     {
-        gamemanager.CaravannePosseded++;
-      
 
-        if (FindObjectOfType<Gold>().myGold < 250)
+
+        if (Goldmanager.myGold < 250)
         {
-            FindObjectOfType<Button>().interactable = false;
-            //Debug.Log("Vous ne possédez pas assez d'argent");
+            AcheterCaravanne.GetComponent<Button>().interactable = false;
+            Debug.Log("Vous ne possédez pas assez d'argent");
         }
-        else if(FindObjectOfType<Gold>().myGold >= 250)
+        if(Goldmanager.myGold >= 250)
         {
+            gamemanager.CaravannePosseded++;
+            AcheterCaravanne.GetComponent<Button>().interactable = true;
             FindObjectOfType<CaravanesPossessed>().MoreCaravel();
-            FindObjectOfType<Gold>().myGold -= 250;
-            FindObjectOfType<Gold>().UpdateGold();
+            Goldmanager.myGold -= 250;
+            Goldmanager.goldUpdate();
+            gold.UpdateGold();
 
 
-            //Debug.Log("Caravane achetée");
+            Debug.Log("Caravane achetée");
 
         }
     }

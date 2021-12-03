@@ -6,22 +6,19 @@ using UnityEngine.UI;
 
 public class Gold : MonoBehaviour
 {
-    public int myGold;
 
+    public GoldManager Goldmanager;
 
-    private void Start()
+    public void Start()
     {
-        myGold = 750;
-        GetComponent<TextMeshProUGUI>().text = myGold.ToString();
+        
+         GetComponent<TextMeshProUGUI>().text = Goldmanager.myGold.ToString();
+        
 
     }
     public void UpdateGold()
     {
-        GetComponent<TextMeshProUGUI>().text = myGold.ToString();
-        if(myGold < 0)
-        {
-            myGold = 0;
-        }
+         GetComponent<TextMeshProUGUI>().text = Goldmanager.myGold.ToString();
     }
 
 }

@@ -9,6 +9,8 @@ public class PointTrigger : MonoBehaviour
     public bool start;
     public bool MidBanditEvent;
 
+    public Gold gold;
+    public GoldManager Goldmanager;
     //chercher le gameManager
     GameManager gamemanager;
 
@@ -69,8 +71,9 @@ public class PointTrigger : MonoBehaviour
         //si il revient  et qu'il est à nouveau sur start
         if(car.isComingBack && start)
         {
-            FindObjectOfType<Gold>().myGold += 150;
-            FindObjectOfType<Gold>().UpdateGold();
+            Goldmanager.myGold += 150;
+            Goldmanager.goldUpdate();
+            gold.UpdateGold();
             //si car est en route de danger
             if (car.CaraDanger)
             {

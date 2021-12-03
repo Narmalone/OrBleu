@@ -22,6 +22,8 @@ public class Farm : MonoBehaviour
 
     public FarmManager farmManager;
 
+    public GoldManager Goldmanager;
+    public Gold gold;
 
 
     Color color1;
@@ -91,13 +93,14 @@ public class Farm : MonoBehaviour
     {
 
         //ajouter un niveau
-        if (CurrentFarmLevel < 10 && FindObjectOfType<Gold>().myGold > CurrentFarmLevel * 25)
+        if (CurrentFarmLevel < 10 && Goldmanager.myGold > CurrentFarmLevel * 25)
         {
             //TROUVER LE PROBLEME OU LORSQUE ON AMELIORER UNE FERME ET QUON VA A LAUTRE QUON LAMELIORE CA LA MET AU NIV DE LAUTRE
             CurrentFarmLevel++;
-            FindObjectOfType<Gold>().myGold -= 25 * CurrentFarmLevel;
-            FindObjectOfType<Gold>().UpdateGold();
-            print("AddFarmLevel");
+            Goldmanager.myGold -= 25 * CurrentFarmLevel;
+            Goldmanager.goldUpdate();
+            gold.UpdateGold();
+            print(CurrentFarmLevel);
             //si le niveau == au lvl max on ne peut plus intéragir
             if (CurrentFarmLevel == MaxFarmLevel)
             {

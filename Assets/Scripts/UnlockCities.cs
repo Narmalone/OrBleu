@@ -10,6 +10,9 @@ public class UnlockCities : MonoBehaviour
 
     public GameObject ButtonCityDisabledStart;
 
+    public Gold gold;
+    public GoldManager Goldmanager;
+
     public void Start()
     {
         UnlockCityButton.SetActive(true);
@@ -19,10 +22,11 @@ public class UnlockCities : MonoBehaviour
 
     public void UnlockCity()
     {
-        if (FindObjectOfType<Gold>().myGold >= 150)
+        if (Goldmanager.myGold >= 150)
         {
-            FindObjectOfType<Gold>().myGold -= 150;
-            FindObjectOfType<Gold>().UpdateGold();
+            Goldmanager.myGold -= 150;
+            Goldmanager.goldUpdate();
+            gold.UpdateGold();
             CityLocked = false;
             UnlockCityButton.SetActive(false);
             ButtonCityDisabledStart.SetActive(true);

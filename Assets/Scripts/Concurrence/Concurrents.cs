@@ -13,7 +13,7 @@ public class Concurrents : MonoBehaviour
     public bool Concurrent_5;
     public bool Concurrent_6;
 
-
+    public GoldManager goldManager;
 
     public void Start()
     {
@@ -28,32 +28,32 @@ public class Concurrents : MonoBehaviour
 
     public void ConcurrentDeafeated()
     {
-        if(FindObjectOfType<Gold>().myGold >= 500 && Concurrent_1 == true)
+        if(goldManager.myGold >= 500 && Concurrent_1 == true)
         {
             
             GetComponent<Image>().color = Color.green;
         }
-        else if(FindObjectOfType<Gold>().myGold >= 1000 && Concurrent_2 == true)
+        else if(goldManager.myGold >= 1000 && Concurrent_2 == true)
         {
             
             GetComponent<Image>().color = Color.green;
         } 
-        else if(FindObjectOfType<Gold>().myGold >= 1300 && Concurrent_3 == true)
+        else if(goldManager.myGold >= 1300 && Concurrent_3 == true)
         {
             
             GetComponent<Image>().color = Color.green;
         }
-        else if(FindObjectOfType<Gold>().myGold >= 1800 && Concurrent_4 == true)
+        else if(goldManager.myGold >= 1800 && Concurrent_4 == true)
         {
             
             GetComponent<Image>().color = Color.green;
         }
-        else if(FindObjectOfType<Gold>().myGold >= 2200 && Concurrent_5 == true)
+        else if(goldManager.myGold >= 2200 && Concurrent_5 == true)
         {
             
             GetComponent<Image>().color = Color.green;
         }
-        else if(FindObjectOfType<Gold>().myGold >= 3000 && Concurrent_6 == true)
+        else if(goldManager.myGold >= 3000 && Concurrent_6 == true)
         {
             
             GetComponent<Image>().color = Color.green;
