@@ -8,8 +8,8 @@ using DG.Tweening;
 public class Farm : MonoBehaviour
 {
     //variables pour timer
-    float currentTime = 0f;
-    float startingTime = 5f;
+    public float currentTime = 0f;
+    public float startingTime = 5f;
 
     //variables pour niveaux de la ferme
     public int CurrentFarmLevel;
@@ -22,7 +22,6 @@ public class Farm : MonoBehaviour
 
     public FarmManager farmManager;
 
-    private Animator anim;
 
 
     Color color1;
@@ -36,8 +35,6 @@ public class Farm : MonoBehaviour
         MaxFarmLevel = 5;
         currentTime = startingTime;
 
-        anim = GetComponent<Animator>();
-
     }
 
     public void Update()
@@ -49,12 +46,10 @@ public class Farm : MonoBehaviour
         if (currentTime <= 0)
         {
             currentTime = 0;
-            anim.SetBool("Collected", true);
 
         }
         else if (currentTime > 0)
         {
-            anim.SetBool("Collected", false);
 
         }
         ColorUpdate();

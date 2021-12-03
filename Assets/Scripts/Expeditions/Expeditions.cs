@@ -92,6 +92,9 @@ public class Expeditions : MonoBehaviour
 
     }
     //lorsque l'on sélectionne l'expe dangereuse
+
+
+    //DEGAGER CES 2 FONCTIONS DE MRD QUI SERVENT A R
     public void UnselectTheDangerExpedition()
     {
       
@@ -185,8 +188,6 @@ public class Expeditions : MonoBehaviour
                     }
 
                 }
-
-                // appel bandit event en fonction du nb de caravane sélectionné
                
             }
         }

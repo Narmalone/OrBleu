@@ -8,11 +8,10 @@ public class Pastel : MonoBehaviour
 {
     public int myPastel;
 
-    private void Start()
+    public void Start()
     {
         myPastel = 10;
         GetComponent<TextMeshProUGUI>().text = myPastel.ToString();
-
     }
 
     //Lorsque l'on modifie la valeur du pastel, l'update
@@ -27,6 +26,8 @@ public class Pastel : MonoBehaviour
         GetComponent<TextMeshProUGUI>().text = myPastel.ToString();
         Debug.Log("pastelUpdated");
     }
+
+
 
 
 }
