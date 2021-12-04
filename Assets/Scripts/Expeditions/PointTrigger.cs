@@ -37,7 +37,7 @@ public class PointTrigger : MonoBehaviour
             FindObjectOfType<BanditEvent>().UnderAttack = false;
             car.myExpedition.CurrentDangerUse = false;
             Destroy(car.gameObject);
-
+            gamemanager.CaravannePosseded--;
             print("car destroy");
         }
         else if (MidBanditEvent == true && FindObjectOfType<BanditEvent>().UnderAttack == true && car.CaraSafe)
@@ -47,7 +47,7 @@ public class PointTrigger : MonoBehaviour
 
             car.myExpedition.CurrentSafeUse = false;
             Destroy(car.gameObject);
-
+            gamemanager.CaravannePosseded--;
             print("car destroy");
         }
         
