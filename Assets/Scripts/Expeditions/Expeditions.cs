@@ -9,8 +9,8 @@ public class Expeditions : MonoBehaviour
 
     public List<GameObject> SafeNumberCaravelSelected;
     public List<GameObject> DangerNumberCaravelSelected;
-    private bool isDangerSelected = false;
-    private bool isSafeSelected = true;
+    public bool isDangerSelected = false;
+    public bool isSafeSelected = true;
 
 
     private bool isCaravelNumberSelected = true;
@@ -24,6 +24,9 @@ public class Expeditions : MonoBehaviour
     private GameObject safeButton;
     [SerializeField]
     private GameObject dangerButton;
+
+    public PastelManager Pastelmanager;
+    public Pastel pastel;
 
     public int UnselectSafeExpedition;
     public int UnselectDangerExpedition;
@@ -168,8 +171,9 @@ public class Expeditions : MonoBehaviour
                 {
                     //UPDATE LE PASTEL ET LANCER LA COROUTINE DANS LE CARA MANAGER
                     CaravaneMNG.LaunchDangerCara(CaravelNumberSelected);
-                    FindObjectOfType<Pastel>().myPastel -= CaravelNumberSelected * 5;
-                    FindObjectOfType<Pastel>().UpdatePastel();
+                    Pastelmanager.myPastel -= CaravelNumberSelected * 5;
+                    Pastelmanager.PastelUpdate();
+                    pastel.UpdatePastel();
                     CurrentDangerUse = true;
 
                     switch (CaravelNumberSelected)
@@ -209,8 +213,9 @@ public class Expeditions : MonoBehaviour
                     //UPDATE LE PASTEL ET LANCER LA COROUTINE DANS LE CARA MANAGER
 
                     CaravaneMNG.Launch(CaravelNumberSelected);
-                    FindObjectOfType<Pastel>().myPastel -= CaravelNumberSelected * 5;
-                    FindObjectOfType<Pastel>().UpdatePastel();
+                    Pastelmanager.myPastel -= CaravelNumberSelected * 5;
+                    Pastelmanager.PastelUpdate();
+                    pastel.UpdatePastel();
                     CurrentSafeUse = true;
 
                     //Appel bandit event quand il y'a 3 cara sécurisé sélectionnée

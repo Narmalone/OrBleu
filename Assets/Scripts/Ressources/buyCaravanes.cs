@@ -14,10 +14,25 @@ public class buyCaravanes : MonoBehaviour
 
     public Gold gold;
 
+
+
     public void Start()
     {
         gamemanager = FindObjectOfType<GameManager>();
         AcheterCaravanne.GetComponent<Button>().interactable = true;
+    }
+
+    public void Update()
+    {
+        if(Goldmanager.myGold >= 250)
+        {
+            AcheterCaravanne.GetComponent<Button>().interactable = true;
+
+        }
+        else if(Goldmanager.myGold < 250)
+        {
+            AcheterCaravanne.GetComponent<Button>().interactable = false;
+        }
     }
     public void buyCaravane()
     {

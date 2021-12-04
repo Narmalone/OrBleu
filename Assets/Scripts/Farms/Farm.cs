@@ -25,6 +25,8 @@ public class Farm : MonoBehaviour
     public GoldManager Goldmanager;
     public Gold gold;
 
+    public PastelManager Pastelmanager;
+    public Pastel pastel;
 
     Color color1;
        
@@ -34,7 +36,7 @@ public class Farm : MonoBehaviour
     public void Start()
     {
         CurrentFarmLevel = 1;
-        MaxFarmLevel = 5;
+        MaxFarmLevel = 6;
         currentTime = startingTime;
 
     }
@@ -55,6 +57,12 @@ public class Farm : MonoBehaviour
 
         }
         ColorUpdate();
+
+        if(CurrentFarmLevel == MaxFarmLevel)
+        {
+            CurrentFarmLevel = MaxFarmLevel;
+            ButtonWhenLevelMax.GetComponent<Button>().interactable = false;
+        }
 
     }
 
@@ -81,8 +89,9 @@ public class Farm : MonoBehaviour
         if (currentTime == 0)
         {
             currentTime = startingTime;
-            FindObjectOfType<Pastel>().myPastel += 2 * CurrentFarmLevel;
-            FindObjectOfType<Pastel>().UpdatePastel();            
+            Pastelmanager.myPastel += 1 * CurrentFarmLevel;
+            Pastelmanager.PastelUpdate();
+            pastel.UpdatePastel();            
             Update();
 
         }
@@ -93,30 +102,18 @@ public class Farm : MonoBehaviour
     {
 
         //ajouter un niveau
-        if (CurrentFarmLevel < 10 && Goldmanager.myGold > CurrentFarmLevel * 25)
+        if (CurrentFarmLevel < MaxFarmLevel)
         {
-            //TROUVER LE PROBLEME OU LORSQUE ON AMELIORER UNE FERME ET QUON VA A LAUTRE QUON LAMELIORE CA LA MET AU NIV DE LAUTRE
-            CurrentFarmLevel++;
             Goldmanager.myGold -= 25 * CurrentFarmLevel;
             Goldmanager.goldUpdate();
-            gold.UpdateGold();
-            print(CurrentFarmLevel);
-            //si le niveau == au lvl max on ne peut plus intéragir
-            if (CurrentFarmLevel == MaxFarmLevel)
-            {
-                CurrentFarmLevel = MaxFarmLevel;
-                ButtonWhenLevelMax.GetComponent<Button>().interactable = false;
-            }
+            gold.UpdateGold();            
 
             farmManager.UpdateFarmLevel(CurrentFarmLevel);
 
-
+            CurrentFarmLevel++;
 
         }
-        else
-        {
-            print("vous n'avez pas les fonds nécéssaires");
-        }
+   
 
 
     }

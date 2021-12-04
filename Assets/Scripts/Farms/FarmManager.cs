@@ -10,8 +10,10 @@ public class FarmManager : MonoBehaviour
     //initialiser le start
     public void Start()
     {
-        UpdateFarmLevel(1);
+        UpdateFarmLevel(0);
     }
+
+
 
     //update le text à modifier !
     public void UpdateFarmLevel(int CurrentFarmLevel)
@@ -19,5 +21,5 @@ public class FarmManager : MonoBehaviour
         GetComponent<TextMeshProUGUI>().text = CurrentFarmLevel.ToString();
     }
 
-
+    
 }
