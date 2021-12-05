@@ -14,7 +14,6 @@ public class PointerTutorial : MonoBehaviour
 
     public Animator anim;
 
-    public Animator anim2;
     public int animCount;
 
     // Start is called before the first frame update
