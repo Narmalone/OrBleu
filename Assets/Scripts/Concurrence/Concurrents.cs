@@ -38,22 +38,22 @@ public class Concurrents : MonoBehaviour
             
             GetComponent<Image>().color = Color.green;
         } 
-        else if(goldManager.myGold >= 1300 && Concurrent_3 == true)
+        else if(goldManager.myGold >= 2000 && Concurrent_3 == true)
         {
             
             GetComponent<Image>().color = Color.green;
         }
-        else if(goldManager.myGold >= 1800 && Concurrent_4 == true)
+        else if(goldManager.myGold >= 5000 && Concurrent_4 == true)
         {
             
             GetComponent<Image>().color = Color.green;
         }
-        else if(goldManager.myGold >= 2200 && Concurrent_5 == true)
+        else if(goldManager.myGold >= 8000 && Concurrent_5 == true)
         {
             
             GetComponent<Image>().color = Color.green;
         }
-        else if(goldManager.myGold >= 3000 && Concurrent_6 == true)
+        else if(goldManager.myGold >= 10000 && Concurrent_6 == true)
         {
             
             GetComponent<Image>().color = Color.green;
