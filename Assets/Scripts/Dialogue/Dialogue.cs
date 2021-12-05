@@ -32,12 +32,14 @@ public class Dialogue : MonoBehaviour
        
     }
 
+    //Début du dialoqgue
     public void StartDialogue()
     {
         index = 0;
         StartCoroutine(TypeLine());
     }
 
+    //Va lire les lettres et les ajouter 1 à 1
     IEnumerator TypeLine()
     {
         foreach(char c in lines[index].ToCharArray())
@@ -46,6 +48,8 @@ public class Dialogue : MonoBehaviour
             yield return new WaitForSeconds(textSpeed*Time.deltaTime);
         }
     }
+
+    //Si y'a plus de lettres on vide
     void nextLine()
     {
         if(index< lines.Length - 1)
@@ -60,6 +64,7 @@ public class Dialogue : MonoBehaviour
         }
     }
 
+    //passer au dialogue suivant => modif vers le PointerTutorial//
     public void GoNextDialog()
     {
         if(textComponent.text == lines[index])
@@ -67,7 +72,7 @@ public class Dialogue : MonoBehaviour
             nextLine();
             DialogueCount++;
             pointertutorial.Update();
-            print(DialogueCount);
+            //print(DialogueCount);
         }
         else
         {
@@ -76,6 +81,7 @@ public class Dialogue : MonoBehaviour
         }
     }
 
+    //Faire monter la boite de dialogue
     public void UpDialog()
     {
         if (DialogueCount == 7)

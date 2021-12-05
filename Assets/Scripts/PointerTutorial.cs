@@ -14,6 +14,7 @@ public class PointerTutorial : MonoBehaviour
 
     public Animator anim;
 
+    public Animator anim2;
     public int animCount;
 
     // Start is called before the first frame update
@@ -36,25 +37,22 @@ public class PointerTutorial : MonoBehaviour
             animCount = 1;
             anim.SetTrigger("Enter");
 
-            print("doit activer le curseur");
         }
         else if (dialogue.DialogueCount == 4)
         {
             TutoGuide.transform.DOMove(new Vector3(-204.71f, 96.56f, -271.06f),2f);
             animCount = 2;
-            anim.SetTrigger("Exit");
 
         }
         else if (dialogue.DialogueCount == 5)
         {
             animCount = 3;
-            TutoGuide.transform.DOMove(new Vector3(-204.805f, 96.56f, -270.952f),5f);
+            TutoGuide.transform.DOMove(new Vector3(-204.85f, 96.56f, -270.953f),2f);
         }
-    }
-
-    void RecoltPastelPos()
-    {
-        
+        else if(dialogue.DialogueCount > 5)
+        {
+            TutoGuide.SetActive(false);
+        }
     }
 
 }
