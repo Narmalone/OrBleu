@@ -5867,3 +5867,4 @@ Received Import Request.
 Start importing Assets/Scenes/MastelGame.unity using Guid(93a00b97347cc714a974ea3616efec5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca10af2c3696d3df652aa97f683de382') in 0.005609 seconds 
   Import took 0.011645 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
