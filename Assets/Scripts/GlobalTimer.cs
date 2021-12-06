@@ -9,6 +9,8 @@ public class GlobalTimer : MonoBehaviour
     public float timeValue;
     public TextMeshProUGUI timerText;
 
+    public GameObject defeatScreen; 
+
     public GameObject globalTimer;
     public bool isActivated;
 
@@ -16,7 +18,8 @@ public class GlobalTimer : MonoBehaviour
 
     private void Start()
     {
-        timeValue = 360;
+        //300 = 5 min
+        timeValue = 3;
         isActivated = false;
     }
     private void Update()
@@ -36,6 +39,7 @@ public class GlobalTimer : MonoBehaviour
         else if (timeValue <= 0 && isActivated == true)
         {
             timeValue = 0;
+            defeatScreen.SetActive(true);
         }
 
         DisplayTime(timeValue);

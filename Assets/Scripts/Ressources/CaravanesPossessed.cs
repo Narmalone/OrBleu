@@ -7,19 +7,20 @@ using UnityEngine.UI;
 
 public class CaravanesPossessed : MonoBehaviour
 {
-    public int lescaravanes;
+    public GameManager gameManager;
 
     public void Start()
     {
-        lescaravanes = 1;
-        GetComponent<TextMeshProUGUI>().text = lescaravanes.ToString();
-
+        GetComponent<TextMeshProUGUI>().text = gameManager.CaravannePosseded.ToString();
     }
 
+    private void Update()
+    {
+        GetComponent<TextMeshProUGUI>().text = gameManager.CaravannePosseded.ToString();
+    }
     public void MoreCaravel()
     {
-        lescaravanes++;
-        GetComponent<TextMeshProUGUI>().text = lescaravanes.ToString();
+        GetComponent<TextMeshProUGUI>().text = gameManager.CaravannePosseded.ToString();
         Debug.Log("AjoutCaravel");
     }
     
