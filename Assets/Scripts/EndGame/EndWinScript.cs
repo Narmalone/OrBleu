@@ -4,15 +4,15 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-public class EndScript : MonoBehaviour
+public class EndWinScript : MonoBehaviour
 {
 
-    public TextMeshProUGUI DefeatTxt;
-    
+    public TextMeshProUGUI VictoryTxt;
+
     //public TextMeshProUGUI VictoryTxt;
 
-    public GameObject DefeatScreen;
-    
+    public GameObject VictoryScreen;
+
 
     public GoldManager goldManager;
 
@@ -21,14 +21,14 @@ public class EndScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         //10k gold pour le moment
-        if (globalTimer.timeValue <= 0 && goldManager.myGold < 10000)
+        if (globalTimer.timeValue <= 0 && goldManager.myGold > 10000)
         {
             GetComponent<TextMeshProUGUI>().text = goldManager.myGold.ToString();
         }

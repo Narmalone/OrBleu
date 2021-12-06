@@ -9,17 +9,20 @@ public class GlobalTimer : MonoBehaviour
     public float timeValue;
     public TextMeshProUGUI timerText;
 
-    public GameObject defeatScreen; 
+    public GameObject defeatScreen;
+    public GameObject victoryScreen;
 
     public GameObject globalTimer;
     public bool isActivated;
+
+    public GoldManager goldManager;
 
     public Dialogue dialogue;
 
     private void Start()
     {
         //300 = 5 min
-        timeValue = 3;
+        timeValue = 300;
         isActivated = false;
     }
     private void Update()
@@ -36,10 +39,15 @@ public class GlobalTimer : MonoBehaviour
             timeValue -= Time.deltaTime;
             //print(timeValue);
         }
-        else if (timeValue <= 0 && isActivated == true)
+        else if (timeValue <= 0 && isActivated == true && goldManager.myGold < 10000)
         {
             timeValue = 0;
             defeatScreen.SetActive(true);
+        }
+        else if (timeValue <= 0 && isActivated == true && goldManager.myGold >= 10000)
+        {
+            timeValue = 0;
+            victoryScreen.SetActive(true);
         }
 
         DisplayTime(timeValue);

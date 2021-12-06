@@ -10,11 +10,18 @@ public class JoueurDeplacement : MonoBehaviour
     public int speed = 2;
     public float XZSpeed = 0.05f;
 
+    public float speedDefilement;
+
     public Camera selectedCamera;
 
     public float minPinchSpeed = 5.0F;
     public float varianceInDistances = 5.0F;
     private float touchDelta = 0.0F;
+
+    [SerializeField]
+    private float maxLeft  = -50;
+    [SerializeField]
+    private float maxRight = 50;
 
     private Vector2 prevDist = new Vector2(0, 0);
     private Vector2 curDist = new Vector2(0, 0);
@@ -26,15 +33,26 @@ public class JoueurDeplacement : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Moved)
-        {  
+        if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Moved )
+        {
+            //A TESTER POUR LIMITES DE CAMERAS//
+            //Mathf.Clamp(transform.position.x, minLeft, maxRight);
+
+
+            //transform.position = new Vector3(
+
+                //transform.position.x,
+                //transform.position.y,
+                //Mathf.Clamp(transform.position.z, maxLeft, maxRight)
+                //);
+
+
 
             //AJOUTER UN CHAMP QUI EMPECHE DALLER DE GAUCHE A DROITE//
 
@@ -82,7 +100,10 @@ public class JoueurDeplacement : MonoBehaviour
 
     }
 
-
+    public void OnCredit()
+    {
+        selectedCamera.transform.position = transform.position + new Vector3(0.3f * Time.deltaTime, 0.3f * Time.deltaTime, 0.3f * Time.deltaTime);
+    }
 
 
 
