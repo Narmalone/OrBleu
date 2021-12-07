@@ -11,7 +11,15 @@ public class CreditsMoove : MonoBehaviour
     public GameObject Background;
 
     [SerializeField]
-    TextMeshProUGUI Credits;
+    TextMeshProUGUI Credits;  
+    
+    [SerializeField]
+    TextMeshProUGUI MapEditor;  
+    
+    [SerializeField]
+    TextMeshProUGUI linkInkarnate;
+
+
 
 
     public float SpeedToDown = 0.3f;
@@ -25,6 +33,8 @@ public class CreditsMoove : MonoBehaviour
     void Update()
     {
         Background.transform.position = transform.position + new Vector3(0f, 0.5f, 0f);
-        Credits.transform.position = transform.position + new Vector3(0f, 0.5f, 0f);
+        Credits.transform.position = transform.position + new Vector3(0f, 0f, 0f);
+        MapEditor.transform.position = transform.position + new Vector3(0f, 0f, 0f);
+        linkInkarnate.transform.position = transform.position + new Vector3(0f, 0f, 0f);
     }
 }
