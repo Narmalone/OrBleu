@@ -13,15 +13,13 @@ public class JoueurDeplacement : MonoBehaviour
     public float speedDefilement;
 
     public Camera selectedCamera;
+    public GameObject minLeft;
+    public GameObject maxRight;
 
     public float minPinchSpeed = 5.0F;
     public float varianceInDistances = 5.0F;
     private float touchDelta = 0.0F;
 
-    [SerializeField]
-    private float maxLeft  = -50;
-    [SerializeField]
-    private float maxRight = 50;
 
     private Vector2 prevDist = new Vector2(0, 0);
     private Vector2 curDist = new Vector2(0, 0);
@@ -29,6 +27,7 @@ public class JoueurDeplacement : MonoBehaviour
     private float speedTouch0 = 0.0F;
     private float speedTouch1 = 0.0F;
 
+    public float minScrollSpeed;
 
     // Use this for initialization
     void Start()
@@ -39,33 +38,26 @@ public class JoueurDeplacement : MonoBehaviour
     void Update()
     {
 
-        if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Moved )
-        {
-            //A TESTER POUR LIMITES DE CAMERAS//
-            //Mathf.Clamp(transform.position.x, minLeft, maxRight);
+
+        //MOUVEMENT POUR ALLER A GAUCHE OU A DROITE
+
+        //if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Moved)
+        //{
+
+            //Vector3 TouchDeltaPosition = Input.GetTouch(0).deltaPosition;
+
+            //transform.Translate(-TouchDeltaPosition.x * XZSpeed * Time.deltaTime, 0f, 0f);
+
+            //speedTouch0 = Input.GetTouch(0).deltaPosition.magnitude / Input.GetTouch(0).deltaTime;
 
 
-            //transform.position = new Vector3(
 
-                //transform.position.x,
-                //transform.position.y,
-                //Mathf.Clamp(transform.position.z, maxLeft, maxRight)
-                //);
+           
+
+            
 
 
-
-            //AJOUTER UN CHAMP QUI EMPECHE DALLER DE GAUCHE A DROITE//
-
-            Vector3 TouchDeltaPosition = Input.GetTouch(0).deltaPosition;
-            //Vector3 TouchDeltaPositionZ = Input.GetTouch(0).deltaPosition;
-
-            transform.Translate(-TouchDeltaPosition.x * XZSpeed * Time.deltaTime, 0f, 0f);
-            //transform.Translate(0f, 0f, TouchDeltaPositionZ.z * XZSpeed * Time.deltaTime);
-
-            speedTouch0 = Input.GetTouch(0).deltaPosition.magnitude / Input.GetTouch(0).deltaTime;
-
-
-        }
+        //}
 
         if (Input.touchCount == 2 && Input.GetTouch(0).phase == TouchPhase.Moved && Input.GetTouch(1).phase == TouchPhase.Moved)
         {
@@ -96,15 +88,12 @@ public class JoueurDeplacement : MonoBehaviour
 
         }
 
+       
+
+
 
 
     }
-
-    public void OnCredit()
-    {
-        selectedCamera.transform.position = transform.position + new Vector3(0.3f * Time.deltaTime, 0.3f * Time.deltaTime, 0.3f * Time.deltaTime);
-    }
-
 
 
 }
