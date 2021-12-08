@@ -182,8 +182,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Co\xFBt: "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -798,6 +798,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &27197887
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -945,8 +946,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Am\xE9liorer la ferme"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1776,8 +1777,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1911,8 +1912,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2441,8 +2442,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Risques:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2665,6 +2666,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &95287021
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3624,6 +3626,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &162051027
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4029,8 +4032,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Co\xFBt:"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4465,6 +4468,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &198268644
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4746,8 +4750,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Credits
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5012,8 +5016,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Co\xFBt:"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5385,8 +5389,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: https://inkarnate.com/
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4cd6ca592ca2c934c8024051fcd936e7, type: 2}
-  m_sharedMaterial: {fileID: -2104936944444248450, guid: 4cd6ca592ca2c934c8024051fcd936e7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5895,6 +5899,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &241142288
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6207,8 +6212,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Co\xFBt: "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6331,6 +6336,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &253231804
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6766,6 +6772,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &257629738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6914,8 +6921,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7598,8 +7605,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: COMMENT JOUER ?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7732,8 +7739,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Co\xFBt:"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8222,6 +8229,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &334692104
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8562,6 +8570,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &342079411
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8875,8 +8884,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9129,7 +9138,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33426
+  m_Name: pb_Mesh39448
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9611,8 +9620,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10240,8 +10249,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Insuffisant, tu as finis avec seulement:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10915,8 +10924,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quitter
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12227,8 +12236,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Co\xFBt: "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12496,6 +12505,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!1 &469258996
 GameObject:
   m_ObjectHideFlags: 0
@@ -12591,8 +12601,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "D\xE9bloquer une ville"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12933,6 +12943,7 @@ MonoBehaviour:
   MidBanditEvent: 1
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &474129625
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13338,6 +13349,170 @@ Transform:
   m_Father: {fileID: 2024521552}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!43 &492879810
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh40852
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 162
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 40
+    localAABB:
+      m_Center: {x: 0.01879384, y: 0, z: 0.4047191}
+      m_Extent: {x: 0.038289096, y: 0, z: 0.4047191}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 00000100020001000300020001000400030004000500030004000600050006000700050006000800070008000900070008000a0009000a000b0009000a000c000b000c000d000b000c000e000d000e000f000d000e0010000f00100011000f0010001200110012001300110002000300140003001500140003000500150005001600150005000700160007001700160007000900170009001800170009000b0018000b00190018000b000d0019000d001a0019000d000f001a000f001b001a000f0011001b0011001c001b00110013001c0013001d001c00140015001e0015001f001e00150016001f00160020001f0016001700200017002100200017001800210018002200210018001900220019002300220019001a0023001a00240023001a001b0024001b00250024001b001c0025001c00260025001c001d0026001d0027002600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 40
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1920
+    _typelessdata: 000000000000000000000000000000000000803f000000000000803f0000000000000000000080bf00000000000000000000000000000000388e633d000000000000803f000000000000803f0000000000000000000080bf00000000388e633d0ad7233c0000000000000000000000000000803f000000000000803f0000000000000000000080bf0ad7233c000000000ad7233c00000000388e633d000000000000803f000000000000803f0000000000000000000080bf0ad7233c388e633db463edbb000000002de1d53d000000000000803f000000000000803f0000000000000000000080bfb463edbb2de1d53d7729343b0000000001e6d53d000000000000803f000000000000803f0000000000000000000080bf7729343b01e6d53dd4bb58bc00000000192d223e000000000000803f000000000000803f0000000000000000000080bfd4bb58bc192d223e71fe53bb00000000822f223e000000000000803f000000000000803f0000000000000000000080bf71fe53bb822f223e83b49fbc00000000c6b65f3e000000000000803f000000000000803f0000000000000000000080bf83b49fbcc6b65f3e0b6a1bbc0000000047b15f3e000000000000803f000000000000803f0000000000000000000080bf0b6a1bbc47b15f3e039a27bc00000000bc329b3e000000000000803f000000000000803f0000000000000000000080bf039a27bcbc329b3ed57277b900000000f1339b3e000000000000803f000000000000803f0000000000000000000080bfd57277b9f1339b3e0db9ebba00000000eddac63e000000000000803f000000000000803f0000000000000000000080bf0db9ebbaeddac63e21ad063c00000000ced9c63e000000000000803f000000000000803f0000000000000000000080bf21ad063cced9c63e47d2503b00000000141e0a3f000000000000803f000000000000803f0000000000000000000080bf47d2503b141e0a3fcaf0573c00000000ae1e0a3f000000000000803f000000000000803f0000000000000000000080bfcaf0573cae1e0a3fe3e3dd3c000000006be02a3f000000000000803f000000000000803f0000000000000000000080bfe3e3dd3c6be02a3fffe0173d0000000005e12a3f000000000000803f000000000000803f0000000000000000000080bfffe0173d05e12a3f29919cbc0000000058374f3f000000000000803f000000000000803f0000000000000000000080bf29919cbc58374f3f572315bc00000000f8354f3f000000000000803f000000000000803f0000000000000000000080bf572315bcf8354f3f0ad7a33c0000000000000000000000000000803f000000000000803f0000000000000000000080bf0ad7a33c000000000ad7a33c00000000388e633d000000000000803f000000000000803f0000000000000000000080bf0ad7a33c388e633d5909513c0000000002dbd53d000000000000803f000000000000803f0000000000000000000080bf5909513c02dbd53d3879dd3b00000000ec31223e000000000000803f000000000000803f0000000000000000000080bf3879dd3bec31223ed122053a00000000b1b35f3e000000000000803f000000000000803f0000000000000000000080bfd122053ab1b35f3e7746203c00000000d1329b3e000000000000803f000000000000803f0000000000000000000080bf7746203cd1329b3ead34953c0000000003dbc63e000000000000803f000000000000803f0000000000000000000080bfad34953c03dbc63ee2f7bd3c000000004e1d0a3f000000000000803f000000000000803f0000000000000000000080bfe2f7bd3c4e1d0a3f0dd0403d000000009fe12a3f000000000000803f000000000000803f0000000000000000000080bf0dd0403d9fe12a3f0e8e693a0000000093364f3f000000000000803f000000000000803f0000000000000000000080bf0e8e693a93364f3f8fc2f53c0000000000000000000000000000803f000000000000803f0000000000000000000080bf8fc2f53c000000008fc2f53c00000000388e633d000000000000803f000000000000803f0000000000000000000080bf8fc2f53c388e633dc862ba3c00000000d6dfd53d000000000000803f000000000000803f0000000000000000000080bfc862ba3cd6dfd53dcb5d893c000000006d2c223e000000000000803f000000000000803f0000000000000000000080bfcb5d893c6d2c223e650e2c3c000000001ab65f3e000000000000803f000000000000803f0000000000000000000080bf650e2c3c1ab65f3eb4eea13c0000000066329b3e000000000000803f000000000000803f0000000000000000000080bfb4eea13c66329b3ec912e73c0000000038dcc63e000000000000803f000000000000803f0000000000000000000080bfc912e73c38dcc63effea073d00000000e91d0a3f000000000000803f000000000000803f0000000000000000000080bfffea073de91d0a3fcccf693d0000000040e02a3f000000000000803f000000000000803f0000000000000000000080bfcccf693d40e02a3f1955323c000000002d374f3f000000000000803f000000000000803f0000000000000000000080bf1955323c2d374f3f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0.01879384, y: 0, z: 0.4047191}
+    m_Extent: {x: 0.038289096, y: 0, z: 0.4047191}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &495416861
 GameObject:
   m_ObjectHideFlags: 0
@@ -13403,7 +13578,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33038
+  m_Name: pb_Mesh39090
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13777,8 +13952,8 @@ MonoBehaviour:
   m_text: "Lancer une exp\xE9dition vous permet de vous enrichir. Mais gare \xE0
     la route que vous utilisez."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13901,6 +14076,7 @@ MonoBehaviour:
   MidBanditEvent: 1
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &515916510
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13963,6 +14139,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &517055165
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14214,6 +14391,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &527327640
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14320,6 +14498,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &540003763
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14406,8 +14585,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14610,8 +14789,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15032,8 +15211,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "R\xE9coltez du pastel afin d'envoyer des exp\xE9ditions"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15241,8 +15420,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: COMMENT JOUER ?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15408,8 +15587,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: elles seront toujours
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15555,7 +15734,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32860
+  m_Name: pb_Mesh38904
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15880,8 +16059,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16398,7 +16577,7 @@ RectTransform:
   - {fileID: 874375210}
   - {fileID: 658169876}
   m_Father: {fileID: 1952221351}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -16917,8 +17096,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Exp\xE9ditions"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17993,6 +18172,138 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!1 &655580646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 655580647}
+  - component: {fileID: 655580650}
+  - component: {fileID: 655580649}
+  - component: {fileID: 655580648}
+  m_Layer: 5
+  m_Name: GoBack (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &655580647
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655580646}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.2006, y: 1.2006, z: 1.2006}
+  m_Children: []
+  m_Father: {fileID: 1445919888}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 573, y: 69}
+  m_SizeDelta: {x: 120, y: 120}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &655580648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655580646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 655580649}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1277205344}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: SetDisableObject
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1965010893}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &655580649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655580646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0a04b3e255107794180b2b6c2a848829, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &655580650
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655580646}
+  m_CullTransparentMesh: 1
 --- !u!1 &657301921
 GameObject:
   m_ObjectHideFlags: 0
@@ -18106,8 +18417,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18997,170 +19308,6 @@ Transform:
   m_Father: {fileID: 1157082481}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!43 &687195508
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh34894
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 162
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 40
-    localAABB:
-      m_Center: {x: 0.01879384, y: 0, z: 0.4047191}
-      m_Extent: {x: 0.038289096, y: 0, z: 0.4047191}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 00000100020001000300020001000400030004000500030004000600050006000700050006000800070008000900070008000a0009000a000b0009000a000c000b000c000d000b000c000e000d000e000f000d000e0010000f00100011000f0010001200110012001300110002000300140003001500140003000500150005001600150005000700160007001700160007000900170009001800170009000b0018000b00190018000b000d0019000d001a0019000d000f001a000f001b001a000f0011001b0011001c001b00110013001c0013001d001c00140015001e0015001f001e00150016001f00160020001f0016001700200017002100200017001800210018002200210018001900220019002300220019001a0023001a00240023001a001b0024001b00250024001b001c0025001c00260025001c001d0026001d0027002600
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 40
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1920
-    _typelessdata: 000000000000000000000000000000000000803f000000000000803f0000000000000000000080bf00000000000000000000000000000000388e633d000000000000803f000000000000803f0000000000000000000080bf00000000388e633d0ad7233c0000000000000000000000000000803f000000000000803f0000000000000000000080bf0ad7233c000000000ad7233c00000000388e633d000000000000803f000000000000803f0000000000000000000080bf0ad7233c388e633db463edbb000000002de1d53d000000000000803f000000000000803f0000000000000000000080bfb463edbb2de1d53d7729343b0000000001e6d53d000000000000803f000000000000803f0000000000000000000080bf7729343b01e6d53dd4bb58bc00000000192d223e000000000000803f000000000000803f0000000000000000000080bfd4bb58bc192d223e71fe53bb00000000822f223e000000000000803f000000000000803f0000000000000000000080bf71fe53bb822f223e83b49fbc00000000c6b65f3e000000000000803f000000000000803f0000000000000000000080bf83b49fbcc6b65f3e0b6a1bbc0000000047b15f3e000000000000803f000000000000803f0000000000000000000080bf0b6a1bbc47b15f3e039a27bc00000000bc329b3e000000000000803f000000000000803f0000000000000000000080bf039a27bcbc329b3ed57277b900000000f1339b3e000000000000803f000000000000803f0000000000000000000080bfd57277b9f1339b3e0db9ebba00000000eddac63e000000000000803f000000000000803f0000000000000000000080bf0db9ebbaeddac63e21ad063c00000000ced9c63e000000000000803f000000000000803f0000000000000000000080bf21ad063cced9c63e47d2503b00000000141e0a3f000000000000803f000000000000803f0000000000000000000080bf47d2503b141e0a3fcaf0573c00000000ae1e0a3f000000000000803f000000000000803f0000000000000000000080bfcaf0573cae1e0a3fe3e3dd3c000000006be02a3f000000000000803f000000000000803f0000000000000000000080bfe3e3dd3c6be02a3fffe0173d0000000005e12a3f000000000000803f000000000000803f0000000000000000000080bfffe0173d05e12a3f29919cbc0000000058374f3f000000000000803f000000000000803f0000000000000000000080bf29919cbc58374f3f572315bc00000000f8354f3f000000000000803f000000000000803f0000000000000000000080bf572315bcf8354f3f0ad7a33c0000000000000000000000000000803f000000000000803f0000000000000000000080bf0ad7a33c000000000ad7a33c00000000388e633d000000000000803f000000000000803f0000000000000000000080bf0ad7a33c388e633d5909513c0000000002dbd53d000000000000803f000000000000803f0000000000000000000080bf5909513c02dbd53d3879dd3b00000000ec31223e000000000000803f000000000000803f0000000000000000000080bf3879dd3bec31223ed122053a00000000b1b35f3e000000000000803f000000000000803f0000000000000000000080bfd122053ab1b35f3e7746203c00000000d1329b3e000000000000803f000000000000803f0000000000000000000080bf7746203cd1329b3ead34953c0000000003dbc63e000000000000803f000000000000803f0000000000000000000080bfad34953c03dbc63ee2f7bd3c000000004e1d0a3f000000000000803f000000000000803f0000000000000000000080bfe2f7bd3c4e1d0a3f0dd0403d000000009fe12a3f000000000000803f000000000000803f0000000000000000000080bf0dd0403d9fe12a3f0e8e693a0000000093364f3f000000000000803f000000000000803f0000000000000000000080bf0e8e693a93364f3f8fc2f53c0000000000000000000000000000803f000000000000803f0000000000000000000080bf8fc2f53c000000008fc2f53c00000000388e633d000000000000803f000000000000803f0000000000000000000080bf8fc2f53c388e633dc862ba3c00000000d6dfd53d000000000000803f000000000000803f0000000000000000000080bfc862ba3cd6dfd53dcb5d893c000000006d2c223e000000000000803f000000000000803f0000000000000000000080bfcb5d893c6d2c223e650e2c3c000000001ab65f3e000000000000803f000000000000803f0000000000000000000080bf650e2c3c1ab65f3eb4eea13c0000000066329b3e000000000000803f000000000000803f0000000000000000000080bfb4eea13c66329b3ec912e73c0000000038dcc63e000000000000803f000000000000803f0000000000000000000080bfc912e73c38dcc63effea073d00000000e91d0a3f000000000000803f000000000000803f0000000000000000000080bfffea073de91d0a3fcccf693d0000000040e02a3f000000000000803f000000000000803f0000000000000000000080bfcccf693d40e02a3f1955323c000000002d374f3f000000000000803f000000000000803f0000000000000000000080bf1955323c2d374f3f
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0.01879384, y: 0, z: 0.4047191}
-    m_Extent: {x: 0.038289096, y: 0, z: 0.4047191}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &689490189
 GameObject:
   m_ObjectHideFlags: 0
@@ -19357,6 +19504,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &693015647
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19921,8 +20069,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Map Editor
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4cd6ca592ca2c934c8024051fcd936e7, type: 2}
-  m_sharedMaterial: {fileID: -2104936944444248450, guid: 4cd6ca592ca2c934c8024051fcd936e7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20002,7 +20150,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh34160
+  m_Name: pb_Mesh40160
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21648,8 +21796,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22406,8 +22554,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Oui
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23884,8 +24032,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Co\xFBt:"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24018,8 +24166,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Bravo, tu nous as tous battu '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24569,8 +24717,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Battez vos concurrents avant la fin du temps imparti !
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24920,6 +25068,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &923152841
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25152,8 +25301,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -26793,8 +26942,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Lancer une exp\xE9dition"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -27949,8 +28098,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Suite
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -28024,6 +28173,70 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1024151529}
   m_CullTransparentMesh: 1
+--- !u!1 &1030462613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030462614}
+  - component: {fileID: 1030462616}
+  - component: {fileID: 1030462615}
+  m_Layer: 5
+  m_Name: UnderAttack_dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1030462614
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030462613}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1445919888}
+  m_Father: {fileID: 1952221351}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1030462615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030462613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f2da8b66c4e36f42a50f1edc78fa527, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  underAttackDialog: {fileID: 1030462613}
+  isUnderAttack: 0
+--- !u!114 &1030462616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030462613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eab28adb4c4464a4eb9120c42576b665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1032791484
 GameObject:
   m_ObjectHideFlags: 0
@@ -28822,8 +29035,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Envoyez des Exp\xE9ditions pour vous faire de l'argent"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -28946,6 +29159,7 @@ MonoBehaviour:
   MidBanditEvent: 1
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1069157387
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29552,6 +29766,7 @@ MonoBehaviour:
   MidBanditEvent: 1
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1109990656
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29624,8 +29839,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Fermes
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -29831,8 +30046,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Risques:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30869,6 +31084,141 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Aggression: 0
   UnderAttack: 0
+--- !u!1 &1156006734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1156006737}
+  - component: {fileID: 1156006736}
+  - component: {fileID: 1156006735}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1156006735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156006734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "H\xE9h\xE9h\xE9... J'ai bien fait d'envoyer ces mercenaires.\nNe m'en
+    tient pas rigueur, \xE0 la guerre comme \xE0 la guerre !"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1156006736
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156006734}
+  m_CullTransparentMesh: 1
+--- !u!224 &1156006737
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156006734}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1445919888}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1, y: 6}
+  m_SizeDelta: {x: 1100, y: 140}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1157082480
 GameObject:
   m_ObjectHideFlags: 0
@@ -30960,8 +31310,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Mettre Sentence just ici hihihi.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31504,6 +31854,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1186038686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31590,8 +31941,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -32504,6 +32855,170 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201979107}
   m_CullTransparentMesh: 1
+--- !u!43 &1218121857
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh41074
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 108
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 28
+    localAABB:
+      m_Center: {x: -0.00083737355, y: 0, z: 0.29178053}
+      m_Extent: {x: 0.030837372, y: 0, z: 0.20821948}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 00000100020001000300020001000400030004000500030004000600050006000700050006000800070008000900070008000a0009000a000b0009000a000c000b000c000d000b00020003000e0003000f000e00030005000f00050010000f0005000700100007001100100007000900110009001200110009000b0012000b00130012000b000d0013000d00140013000e000f0015000f00160015000f001000160010001700160010001100170011001800170011001200180012001900180012001300190013001a001900130014001a0014001b001a00
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 28
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1344
+    _typelessdata: 3c5902bc000000000c22ab3d000000000000803f000000000000803f0000000000000000000080bf3c5902bc0c22ab3d61bd01bd00000000eb332a3e000000000000803f000000000000803f0000000000000000000080bf61bd01bdeb332a3e62f2053b00000000b822ab3d000000000000803f000000000000803f0000000000000000000080bf62f2053bb822ab3dd88fb1bc0000000041342a3e000000000000803f000000000000803f0000000000000000000080bfd88fb1bc41342a3ebc1c63bc00000000c05e7b3e000000000000803f000000000000803f0000000000000000000080bfbc1c63bcc05e7b3e9e1b7dbb00000000165f7b3e000000000000803f000000000000803f0000000000000000000080bf9e1b7dbb165f7b3e1207cebb00000000ded2a03e000000000000803f000000000000803f0000000000000000000080bf1207cebbded2a03e2f49733b0000000008d3a03e000000000000803f000000000000803f0000000000000000000080bf2f49733b08d3a03e0000000000000000721cc73e000000000000803f000000000000803f0000000000000000000080bf00000000721cc73e0ad7233c00000000721cc73e000000000000803f000000000000803f0000000000000000000080bf0ad7233c721cc73e0000000000000000398ee33e000000000000803f000000000000803f0000000000000000000080bf00000000398ee33e0ad7233c00000000398ee33e000000000000803f000000000000803f0000000000000000000080bf0ad7233c398ee33e00000000000000000000003f000000000000803f000000000000803f0000000000000000000080bf000000000000003f0ad7233c000000000000003f000000000000803f000000000000803f0000000000000000000080bf0ad7233c0000003f6d52453c000000006323ab3d000000000000803f000000000000803f0000000000000000000080bf6d52453c6323ab3ddb493fbc0000000097342a3e000000000000803f000000000000803f0000000000000000000080bfdb493fbc97342a3edb1dc93b000000006b5f7b3e000000000000803f000000000000803f0000000000000000000080bfdb1dc93b6b5f7b3e21a8603c0000000033d3a03e000000000000803f000000000000803f0000000000000000000080bf21a8603c33d3a03e0ad7a33c00000000721cc73e000000000000803f000000000000803f0000000000000000000080bf0ad7a33c721cc73e0ad7a33c00000000398ee33e000000000000803f000000000000803f0000000000000000000080bf0ad7a33c398ee33e0ad7a33c000000000000003f000000000000803f000000000000803f0000000000000000000080bf0ad7a33c0000003f2194b43c000000000f24ab3d000000000000803f000000000000803f0000000000000000000080bf2194b43c0f24ab3d30a0dbba00000000ec342a3e000000000000803f000000000000803f0000000000000000000080bf30a0dbbaec342a3e6132843c00000000c15f7b3e000000000000803f000000000000803f0000000000000000000080bf6132843cc15f7b3efb3ec23c000000005ed3a03e000000000000803f000000000000803f0000000000000000000080bffb3ec23c5ed3a03e8fc2f53c00000000721cc73e000000000000803f000000000000803f0000000000000000000080bf8fc2f53c721cc73e8fc2f53c00000000398ee33e000000000000803f000000000000803f0000000000000000000080bf8fc2f53c398ee33e8fc2f53c000000000000003f000000000000803f000000000000803f0000000000000000000080bf8fc2f53c0000003f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -0.00083737355, y: 0, z: 0.29178053}
+    m_Extent: {x: 0.030837372, y: 0, z: 0.20821948}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1225794861
 GameObject:
   m_ObjectHideFlags: 0
@@ -32553,6 +33068,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1225794864
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33411,6 +33927,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1275326087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33591,6 +34108,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1304528495
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37201,6 +37719,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1339994669
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37564,6 +38083,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1343612854
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37846,8 +38366,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -38614,8 +39134,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Credits
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4cd6ca592ca2c934c8024051fcd936e7, type: 2}
-  m_sharedMaterial: {fileID: -2104936944444248450, guid: 4cd6ca592ca2c934c8024051fcd936e7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -38748,8 +39268,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Non
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -39076,170 +39596,6 @@ MonoBehaviour:
   gold: {fileID: 1556318878}
   Pastelmanager: {fileID: 943611132}
   pastel: {fileID: 1430658379}
---- !u!43 &1416145187
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh35134
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 108
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 28
-    localAABB:
-      m_Center: {x: -0.00083737355, y: 0, z: 0.29178053}
-      m_Extent: {x: 0.030837372, y: 0, z: 0.20821948}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 00000100020001000300020001000400030004000500030004000600050006000700050006000800070008000900070008000a0009000a000b0009000a000c000b000c000d000b00020003000e0003000f000e00030005000f00050010000f0005000700100007001100100007000900110009001200110009000b0012000b00130012000b000d0013000d00140013000e000f0015000f00160015000f001000160010001700160010001100170011001800170011001200180012001900180012001300190013001a001900130014001a0014001b001a00
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 28
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1344
-    _typelessdata: 3c5902bc000000000c22ab3d000000000000803f000000000000803f0000000000000000000080bf3c5902bc0c22ab3d61bd01bd00000000eb332a3e000000000000803f000000000000803f0000000000000000000080bf61bd01bdeb332a3e62f2053b00000000b822ab3d000000000000803f000000000000803f0000000000000000000080bf62f2053bb822ab3dd88fb1bc0000000041342a3e000000000000803f000000000000803f0000000000000000000080bfd88fb1bc41342a3ebc1c63bc00000000c05e7b3e000000000000803f000000000000803f0000000000000000000080bfbc1c63bcc05e7b3e9e1b7dbb00000000165f7b3e000000000000803f000000000000803f0000000000000000000080bf9e1b7dbb165f7b3e1207cebb00000000ded2a03e000000000000803f000000000000803f0000000000000000000080bf1207cebbded2a03e2f49733b0000000008d3a03e000000000000803f000000000000803f0000000000000000000080bf2f49733b08d3a03e0000000000000000721cc73e000000000000803f000000000000803f0000000000000000000080bf00000000721cc73e0ad7233c00000000721cc73e000000000000803f000000000000803f0000000000000000000080bf0ad7233c721cc73e0000000000000000398ee33e000000000000803f000000000000803f0000000000000000000080bf00000000398ee33e0ad7233c00000000398ee33e000000000000803f000000000000803f0000000000000000000080bf0ad7233c398ee33e00000000000000000000003f000000000000803f000000000000803f0000000000000000000080bf000000000000003f0ad7233c000000000000003f000000000000803f000000000000803f0000000000000000000080bf0ad7233c0000003f6d52453c000000006323ab3d000000000000803f000000000000803f0000000000000000000080bf6d52453c6323ab3ddb493fbc0000000097342a3e000000000000803f000000000000803f0000000000000000000080bfdb493fbc97342a3edb1dc93b000000006b5f7b3e000000000000803f000000000000803f0000000000000000000080bfdb1dc93b6b5f7b3e21a8603c0000000033d3a03e000000000000803f000000000000803f0000000000000000000080bf21a8603c33d3a03e0ad7a33c00000000721cc73e000000000000803f000000000000803f0000000000000000000080bf0ad7a33c721cc73e0ad7a33c00000000398ee33e000000000000803f000000000000803f0000000000000000000080bf0ad7a33c398ee33e0ad7a33c000000000000003f000000000000803f000000000000803f0000000000000000000080bf0ad7a33c0000003f2194b43c000000000f24ab3d000000000000803f000000000000803f0000000000000000000080bf2194b43c0f24ab3d30a0dbba00000000ec342a3e000000000000803f000000000000803f0000000000000000000080bf30a0dbbaec342a3e6132843c00000000c15f7b3e000000000000803f000000000000803f0000000000000000000080bf6132843cc15f7b3efb3ec23c000000005ed3a03e000000000000803f000000000000803f0000000000000000000080bffb3ec23c5ed3a03e8fc2f53c00000000721cc73e000000000000803f000000000000803f0000000000000000000080bf8fc2f53c721cc73e8fc2f53c00000000398ee33e000000000000803f000000000000803f0000000000000000000080bf8fc2f53c398ee33e8fc2f53c000000000000003f000000000000803f000000000000803f0000000000000000000080bf8fc2f53c0000003f
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -0.00083737355, y: 0, z: 0.29178053}
-    m_Extent: {x: 0.030837372, y: 0, z: 0.20821948}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1416879205
 GameObject:
   m_ObjectHideFlags: 0
@@ -39860,6 +40216,7 @@ MonoBehaviour:
   MidBanditEvent: 1
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1433730576
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39947,6 +40304,83 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435086821}
+  m_CullTransparentMesh: 1
+--- !u!1 &1445919887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1445919888}
+  - component: {fileID: 1445919890}
+  - component: {fileID: 1445919889}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1445919888
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445919887}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1156006737}
+  - {fileID: 655580647}
+  m_Father: {fileID: 1030462614}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 12, y: -274}
+  m_SizeDelta: {x: 1200, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1445919889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445919887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1445919890
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445919887}
   m_CullTransparentMesh: 1
 --- !u!1 &1446757732
 GameObject:
@@ -40168,6 +40602,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1471748615
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40254,8 +40689,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -40388,8 +40823,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 250
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -40508,7 +40943,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh34136
+  m_Name: pb_Mesh40136
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -40715,6 +41150,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1495141045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42037,8 +42473,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Victoire
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -42420,6 +42856,7 @@ MonoBehaviour:
   MidBanditEvent: 1
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1573384459
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42508,8 +42945,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -43137,6 +43574,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1596054934
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43760,6 +44198,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1618133674
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44537,6 +44976,7 @@ MonoBehaviour:
   MidBanditEvent: 1
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1670549535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45167,8 +45607,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: COMMENT JOUER ?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -45350,7 +45790,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 687195508}
+  m_Mesh: {fileID: 492879810}
 --- !u!33 &1705860896
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -45358,7 +45798,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1705860894}
-  m_Mesh: {fileID: 687195508}
+  m_Mesh: {fileID: 492879810}
 --- !u!23 &1705860897
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -46252,7 +46692,7 @@ MonoBehaviour:
     m_AreaError: 15
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
-  m_Mesh: {fileID: 687195508}
+  m_Mesh: {fileID: 492879810}
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -46499,8 +46939,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -47048,6 +47488,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1728316498
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47197,6 +47638,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!1 &1735284252
 GameObject:
   m_ObjectHideFlags: 0
@@ -47256,8 +47698,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Risques:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -47490,8 +47932,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Risques:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -47947,7 +48389,7 @@ RectTransform:
   - {fileID: 262797670}
   - {fileID: 418554677}
   m_Father: {fileID: 1952221351}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -48090,6 +48532,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1770778108
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48820,7 +49263,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1416145187}
+  m_Mesh: {fileID: 1218121857}
 --- !u!33 &1822773771
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -48828,7 +49271,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822773769}
-  m_Mesh: {fileID: 1416145187}
+  m_Mesh: {fileID: 1218121857}
 --- !u!23 &1822773772
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49449,7 +49892,7 @@ MonoBehaviour:
     m_AreaError: 15
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
-  m_Mesh: {fileID: 1416145187}
+  m_Mesh: {fileID: 1218121857}
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -49875,8 +50318,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Am\xE9liorer une ferme permet de r\xE9colter plus de pastel !"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -50261,6 +50704,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!1 &1844580128
 GameObject:
   m_ObjectHideFlags: 0
@@ -50320,8 +50764,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: accessibles en jeu.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -50459,8 +50903,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Risques:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -50593,8 +51037,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Risques:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -50717,6 +51161,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1866624736
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50854,6 +51299,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1871386234
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50926,8 +51372,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Options
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -51611,8 +52057,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PLAY
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -51952,8 +52398,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Defeat
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -52162,7 +52608,7 @@ RectTransform:
   - {fileID: 735481556}
   - {fileID: 226937530}
   m_Father: {fileID: 1952221351}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -52326,8 +52772,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Co\xFBt:"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -53010,6 +53456,7 @@ RectTransform:
   - {fileID: 1683978781}
   - {fileID: 474286544}
   - {fileID: 1786779752}
+  - {fileID: 1030462614}
   - {fileID: 1760370637}
   - {fileID: 627729126}
   - {fileID: 1919065828}
@@ -53085,6 +53532,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1956111786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53147,6 +53595,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1958333285
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53595,8 +54044,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -54619,6 +55068,7 @@ MonoBehaviour:
   MidBanditEvent: 1
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &1992558412
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55536,7 +55986,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32450
+  m_Name: pb_Mesh38494
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -55822,8 +56272,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "R\xE9colter du Pastel"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -60774,8 +61224,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Fortement conseill\xE9"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -60908,8 +61358,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Construire une ferme
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -61042,8 +61492,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Risques:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -61716,8 +62166,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Faire le Tutoriel ?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -62146,6 +62596,7 @@ MonoBehaviour:
   MidBanditEvent: 0
   gold: {fileID: 1556318878}
   Goldmanager: {fileID: 345501099}
+  underAttackDialog: {fileID: 1030462615}
 --- !u!65 &2142498442
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62218,8 +62669,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Risques:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
+  m_sharedMaterial: {fileID: 7620669599972778174, guid: 8478f980d70e1d9418f8cfbce2737fc7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

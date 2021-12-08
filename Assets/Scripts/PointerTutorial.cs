@@ -48,7 +48,7 @@ public class PointerTutorial : MonoBehaviour
             animCount = 3;
             TutoGuide.transform.DOMove(new Vector3(-204.85f, 96.56f, -270.953f),2f);
         }
-        else if(dialogue.DialogueCount > 5)
+        else if(dialogue.DialogueCount > 6)
         {
             TutoGuide.SetActive(false);
         }

@@ -11,10 +11,10 @@ public class Dialogue : MonoBehaviour
 
     public GameObject dialogueBox;
 
+
     public float textSpeed;
 
     public int DialogueCount;
-
     private int index;
 
     public PointerTutorial pointertutorial;
@@ -29,7 +29,7 @@ public class Dialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        
     }
 
     //Début du dialoqgue
@@ -93,6 +93,5 @@ public class Dialogue : MonoBehaviour
             print("la boite ne bouge pas");
         }
     }
-
 
 }

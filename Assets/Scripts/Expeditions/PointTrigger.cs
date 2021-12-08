@@ -14,6 +14,8 @@ public class PointTrigger : MonoBehaviour
     //chercher le gameManager
     GameManager gamemanager;
 
+    public UnderAttackDialog underAttackDialog;
+
     private void Start()
     {
         gamemanager = FindObjectOfType<GameManager>();
@@ -36,8 +38,12 @@ public class PointTrigger : MonoBehaviour
         {
             FindObjectOfType<BanditEvent>().UnderAttack = false;
             car.myExpedition.CurrentDangerUse = false;
-            Destroy(car.gameObject);
             gamemanager.CaravannePosseded--;
+
+            underAttackDialog.underAttackDialog.SetActive(true);
+
+            Destroy(car.gameObject);
+
             print("car destroy");
         }
         else if (MidBanditEvent == true && FindObjectOfType<BanditEvent>().UnderAttack == true && car.CaraSafe)
