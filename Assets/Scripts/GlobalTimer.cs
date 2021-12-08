@@ -22,13 +22,13 @@ public class GlobalTimer : MonoBehaviour
     private void Start()
     {
         //300 = 5 min
-        timeValue = 300;
+        timeValue = 360;
         isActivated = false;
     }
     private void Update()
     {
 
-        if(dialogue.DialogueCount > 10)
+        if(dialogue.DialogueCount > 12)
         {
             isActivated = true;
             //print("Activated true");

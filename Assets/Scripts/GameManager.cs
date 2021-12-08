@@ -16,4 +16,12 @@ public class GameManager : MonoBehaviour
     {
         CaravannePosseded = 1;
     }
+
+    private void Update()
+    {
+        if(CaravannePosseded <= 0)
+        {
+            CaravannePosseded = 0;
+        }
+    }
 }

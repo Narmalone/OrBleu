@@ -30,7 +30,7 @@ public class BanditEvent : MonoBehaviour
     {
         Aggression = Random.Range(1, 100);
         print(Aggression);
-        if(Aggression <= 150)
+        if(Aggression <= 30)
         {
             CaravelsAgressed();
         }
@@ -43,7 +43,7 @@ public class BanditEvent : MonoBehaviour
     {
         Aggression = Random.Range(1, 100);
         print(Aggression);
-        if(Aggression <= 20)
+        if(Aggression <= 35)
         {
             CaravelsAgressed();
         }
@@ -56,7 +56,7 @@ public class BanditEvent : MonoBehaviour
     {
         Aggression = Random.Range(1, 100);
         print(Aggression);
-        if(Aggression <= 25)
+        if(Aggression <= 40)
         {
             CaravelsAgressed();
         }

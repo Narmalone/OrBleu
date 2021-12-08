@@ -83,7 +83,7 @@ public class MontaubanExpe : MonoBehaviour
         
 
 
-        if (Pastelmanager.myPastel < 10 || gamemanager.CaravannePosseded < 1)
+        if (Pastelmanager.myPastel < 5 || gamemanager.CaravannePosseded < 1)
         {
             SafeCaravelPick1.GetComponent<Button>().interactable = false;
             SafeCaravelPick2.GetComponent<Button>().interactable = false;
@@ -95,7 +95,7 @@ public class MontaubanExpe : MonoBehaviour
 
 
         }
-        else if (Pastelmanager.myPastel >= 10 && gamemanager.CaravannePosseded == 1 || Pastelmanager.myPastel < 15)
+        else if (Pastelmanager.myPastel >= 5 && gamemanager.CaravannePosseded == 1 || Pastelmanager.myPastel < 10)
         {
             SafeCaravelPick1.GetComponent<Button>().interactable = true;
             SafeCaravelPick2.GetComponent<Button>().interactable = false;
@@ -114,7 +114,7 @@ public class MontaubanExpe : MonoBehaviour
 
 
         }
-        else if (Pastelmanager.myPastel >= 15 && gamemanager.CaravannePosseded > 1 && gamemanager.CaravannePosseded < 3)
+        else if (Pastelmanager.myPastel >= 10 && gamemanager.CaravannePosseded > 1 && gamemanager.CaravannePosseded < 3)
         {
             SafeCaravelPick1.GetComponent<Button>().interactable = true;
             SafeCaravelPick2.GetComponent<Button>().interactable = true;
@@ -127,7 +127,7 @@ public class MontaubanExpe : MonoBehaviour
 
         }
       
-        else if (Pastelmanager.myPastel >= 15 && gamemanager.CaravannePosseded >= 2 && Pastelmanager.myPastel < 20)
+        else if (Pastelmanager.myPastel >= 10 && gamemanager.CaravannePosseded >= 2 && Pastelmanager.myPastel < 15)
         {
             SafeCaravelPick2.GetComponent<Button>().interactable = true;
             SafeCaravelPick3.GetComponent<Button>().interactable = false;
@@ -138,7 +138,7 @@ public class MontaubanExpe : MonoBehaviour
 
         }
 
-        else if (Pastelmanager.myPastel >= 15 && gamemanager.CaravannePosseded <2)
+        else if (Pastelmanager.myPastel >= 10 && gamemanager.CaravannePosseded <2)
         {
             SafeCaravelPick1.GetComponent<Button>().interactable = true;
             SafeCaravelPick2.GetComponent<Button>().interactable = false;
@@ -159,7 +159,7 @@ public class MontaubanExpe : MonoBehaviour
 
 
 
-        else if (Pastelmanager.myPastel >= 20 && gamemanager.CaravannePosseded >= 3)
+        else if (Pastelmanager.myPastel >= 15 && gamemanager.CaravannePosseded >= 3)
         {
             SafeCaravelPick1.GetComponent<Button>().interactable = true;
             SafeCaravelPick2.GetComponent<Button>().interactable = true;
@@ -236,7 +236,7 @@ public class MontaubanExpe : MonoBehaviour
     {
 
         print("CheckValidate");
-        if(Pastelmanager.myPastel <10 && gamemanager.CaravannePosseded > 0)
+        if(Pastelmanager.myPastel <5 && gamemanager.CaravannePosseded > 0)
         {
             validateButton.GetComponent<Button>().interactable = false;
             print("Validate Condition 1");
@@ -248,7 +248,7 @@ public class MontaubanExpe : MonoBehaviour
             print("Validate Condition 2");
 
         }
-        else if(Pastelmanager.myPastel >=10 && gamemanager.CaravannePosseded > 0)
+        else if(Pastelmanager.myPastel >=5 && gamemanager.CaravannePosseded > 0)
         {
             validateButton.GetComponent<Button>().interactable = true;
             print("Validate Condition 3");

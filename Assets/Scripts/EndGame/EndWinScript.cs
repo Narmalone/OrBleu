@@ -28,7 +28,7 @@ public class EndWinScript : MonoBehaviour
     void Update()
     {
         //10k gold pour le moment
-        if (globalTimer.timeValue <= 0 && goldManager.myGold > 10000)
+        if (globalTimer.timeValue <= 0 && goldManager.myGold > 5000)
         {
             GetComponent<TextMeshProUGUI>().text = goldManager.myGold.ToString();
         }

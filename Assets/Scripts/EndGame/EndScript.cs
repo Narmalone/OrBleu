@@ -27,8 +27,8 @@ public class EndScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //10k gold pour le moment
-        if (globalTimer.timeValue <= 0 && goldManager.myGold < 10000)
+        //5k gold pour le moment
+        if (globalTimer.timeValue <= 0 && goldManager.myGold < 5000)
         {
             GetComponent<TextMeshProUGUI>().text = goldManager.myGold.ToString();
         }
