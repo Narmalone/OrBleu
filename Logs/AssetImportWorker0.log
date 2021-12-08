@@ -2096,3 +2096,4 @@ Received Import Request.
 Start importing Assets/Scripts/Animations/animPastel.cs using Guid(23b8e35afd84b824f9f7806e4392d8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa77ee2656f5c402576e608a5b64cbc') in 0.015834 seconds 
   Import took 0.024448 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
