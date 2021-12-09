@@ -1253,6 +1253,7 @@ MonoBehaviour:
   DangerCaravelPick1: {fileID: 1266160765}
   DangerCaravelPick2: {fileID: 668583809}
   DangerCaravelPick3: {fileID: 473878911}
+  DangerRoadTutorial: {fileID: 785918112}
   CaravaneMNG: {fileID: 2109113260}
   Pastelmanager: {fileID: 943611132}
 --- !u!114 &50047680
@@ -7007,6 +7008,7 @@ MonoBehaviour:
   DangerCaravelPick1: {fileID: 1533777120}
   DangerCaravelPick2: {fileID: 1373429389}
   DangerCaravelPick3: {fileID: 403279998}
+  DangerRoadTutorial: {fileID: 191375298}
   CaravaneMNG: {fileID: 840439569}
   Pastelmanager: {fileID: 943611132}
 --- !u!114 &254515163
@@ -10577,6 +10579,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 254515159}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1786779755}
+        m_TargetAssemblyTypeName: TwoDTuto, Assembly-CSharp
+        m_MethodName: tutoPastelCollect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -23618,6 +23632,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788705221}
   m_CullTransparentMesh: 1
+--- !u!1 &789174363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 789174364}
+  - component: {fileID: 789174366}
+  - component: {fileID: 789174365}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &789174364
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789174363}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1130636566}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &789174365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789174363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ae8e48fc8b82a394f983a9c55362c5e1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &789174366
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789174363}
+  m_CullTransparentMesh: 1
 --- !u!4 &789987910 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cdd0565bd58f2e64893ad55855e87a26, type: 3}
@@ -32489,6 +32578,71 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1130636565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1130636566}
+  - component: {fileID: 1130636567}
+  - component: {fileID: 1130636568}
+  m_Layer: 5
+  m_Name: TutorialPannel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1130636566
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130636565}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 789174364}
+  m_Father: {fileID: 1952221351}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1130636567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130636565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eab28adb4c4464a4eb9120c42576b665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1130636568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130636565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746dc247c67334c4caf717cc0f8e4050, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firsTimeTutorial: {fileID: 1683978783}
+  ArrowTwoD: {fileID: 789174363}
+  dialogue: {fileID: 1786779754}
 --- !u!1 &1131250145
 GameObject:
   m_ObjectHideFlags: 0
@@ -34590,6 +34744,7 @@ MonoBehaviour:
   DangerCaravelPick1: {fileID: 1569265778}
   DangerCaravelPick2: {fileID: 1368753161}
   DangerCaravelPick3: {fileID: 1084950785}
+  DangerRoadTutorial: {fileID: 1825243654}
   CaravaneMNG: {fileID: 851502588}
   Pastelmanager: {fileID: 943611132}
 --- !u!114 &1193786370
@@ -34940,7 +35095,7 @@ GameObject:
   - component: {fileID: 1196319336}
   - component: {fileID: 1196319337}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: PointerTuto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35043,6 +35198,7 @@ MonoBehaviour:
   dialogue: {fileID: 1786779754}
   anim: {fileID: 1196319337}
   animCount: 0
+  firsttimeTutorial: {fileID: 1683978783}
 --- !u!95 &1196319337
 Animator:
   serializedVersion: 3
@@ -35212,6 +35368,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 1965009313}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1683978783}
+        m_TargetAssemblyTypeName: FirsttimeTutorial, Assembly-CSharp
+        m_MethodName: FirstTime
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -46560,6 +46728,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1786779755}
+        m_TargetAssemblyTypeName: TwoDTuto, Assembly-CSharp
+        m_MethodName: tutoPastelCollect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1595849798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48314,6 +48494,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1683978781}
   - component: {fileID: 1683978782}
+  - component: {fileID: 1683978783}
   m_Layer: 5
   m_Name: Didactitiel?
   m_TagString: Untagged
@@ -48360,6 +48541,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eab28adb4c4464a4eb9120c42576b665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1683978783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683978780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ea06b3bf63c014e85caf2e339b0efa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstTime: 0
 --- !u!1 &1684160734
 GameObject:
   m_ObjectHideFlags: 0
@@ -52089,6 +52283,7 @@ MonoBehaviour:
   DangerCaravelPick1: {fileID: 2082774790}
   DangerCaravelPick2: {fileID: 607460809}
   DangerCaravelPick3: {fileID: 740135957}
+  DangerRoadTutorial: {fileID: 663017318}
   CaravaneMNG: {fileID: 495416863}
   Pastelmanager: {fileID: 943611132}
 --- !u!114 &1780126353
@@ -52201,6 +52396,7 @@ GameObject:
   - component: {fileID: 1786779752}
   - component: {fileID: 1786779753}
   - component: {fileID: 1786779754}
+  - component: {fileID: 1786779755}
   m_Layer: 5
   m_Name: Tutoriel_Dialogue
   m_TagString: Untagged
@@ -52289,6 +52485,21 @@ MonoBehaviour:
   textSpeed: 1.5
   DialogueCount: 0
   pointertutorial: {fileID: 1196319336}
+--- !u!114 &1786779755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786779751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746dc247c67334c4caf717cc0f8e4050, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firsTimeTutorial: {fileID: 1683978783}
+  ArrowTwoD: {fileID: 353595384}
+  dialogue: {fileID: 1786779754}
 --- !u!1 &1788960986
 GameObject:
   m_ObjectHideFlags: 0
@@ -54308,8 +54519,6 @@ MonoBehaviour:
   XZSpeed: 0.1
   speedDefilement: 1
   selectedCamera: {fileID: 1835912104}
-  minLeft: {fileID: 0}
-  maxRight: {fileID: 0}
   minPinchSpeed: 5
   varianceInDistances: 5
   minScrollSpeed: 0.2
@@ -57256,6 +57465,7 @@ RectTransform:
   - {fileID: 496946997}
   - {fileID: 627729126}
   - {fileID: 1919065828}
+  - {fileID: 1130636566}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -58900,6 +59110,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1603857797}
         m_TargetAssemblyTypeName: UnlockCities, Assembly-CSharp
         m_MethodName: UnlockCity
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1786779755}
+        m_TargetAssemblyTypeName: TwoDTuto, Assembly-CSharp
+        m_MethodName: tutoPastelCollect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

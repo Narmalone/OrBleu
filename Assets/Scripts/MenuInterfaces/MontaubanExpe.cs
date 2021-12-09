@@ -15,13 +15,18 @@ public class MontaubanExpe : MonoBehaviour
     public GameObject SafeCaravelPick2;
     public GameObject SafeCaravelPick3;
 
+
     public GameObject DangerCaravelPick1;
     public GameObject DangerCaravelPick2;
     public GameObject DangerCaravelPick3;
 
+
+    public GameObject DangerRoadTutorial;
+
     public CaravaneManager CaravaneMNG;
 
     public PastelManager Pastelmanager;
+
 
     GameManager gamemanager;
 
@@ -170,8 +175,8 @@ public class MontaubanExpe : MonoBehaviour
             DangerCaravelPick3.GetComponent<Button>().interactable = true;
 
             
+
         }
-        
 
 
 
@@ -254,6 +259,12 @@ public class MontaubanExpe : MonoBehaviour
             print("Validate Condition 3");
 
         }
+
+       
+
     }
+
+    
+
 
 }

@@ -67,7 +67,19 @@ public class Dialogue : MonoBehaviour
     //passer au dialogue suivant => modif vers le PointerTutorial//
     public void GoNextDialog()
     {
-        if(textComponent.text == lines[index])
+
+
+        if (DialogueCount == 6)
+        {
+            dialogueBox.transform.DOMoveY(700f, 2f);
+            print("la boite doit bouger");
+        }
+        else
+        {
+            print("la boite ne bouge pas");
+        }
+
+        if (textComponent.text == lines[index])
         {
             nextLine();
             DialogueCount++;
@@ -84,14 +96,7 @@ public class Dialogue : MonoBehaviour
     //Faire monter la boite de dialogue
     public void UpDialog()
     {
-        if (DialogueCount == 7)
-        {
-            dialogueBox.transform.DOMoveY(700f, 2f);
-        }
-        else 
-        {
-            print("la boite ne bouge pas");
-        }
+       
     }
 
 }

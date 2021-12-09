@@ -16,6 +16,7 @@ public class PointerTutorial : MonoBehaviour
 
     public int animCount;
 
+    public FirsttimeTutorial firsttimeTutorial;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,25 +31,26 @@ public class PointerTutorial : MonoBehaviour
     {
 
 
-        if (dialogue.DialogueCount == 3)
+        if (dialogue.DialogueCount == 3 && firsttimeTutorial.isFirstTime == true)
         {
             TutoGuide.SetActive(true);
             animCount = 1;
             anim.SetTrigger("Enter");
 
         }
-        else if (dialogue.DialogueCount == 4)
+        else if (dialogue.DialogueCount == 4 && firsttimeTutorial.isFirstTime == true)
         {
             TutoGuide.transform.DOMove(new Vector3(-204.71f, 96.56f, -271.06f),2f);
             animCount = 2;
 
         }
-        else if (dialogue.DialogueCount == 5)
+        else if (dialogue.DialogueCount == 5 && firsttimeTutorial.isFirstTime == true)
         {
             animCount = 3;
+
             TutoGuide.transform.DOMove(new Vector3(-204.85f, 96.56f, -270.953f),2f);
         }
-        else if(dialogue.DialogueCount > 6)
+        else if(dialogue.DialogueCount > 6 && firsttimeTutorial.isFirstTime == true)
         {
             TutoGuide.SetActive(false);
         }
