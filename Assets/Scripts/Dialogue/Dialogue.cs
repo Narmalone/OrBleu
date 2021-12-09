@@ -69,15 +69,17 @@ public class Dialogue : MonoBehaviour
     {
 
 
+        //a modif en fonction de l'écran !!
         if (DialogueCount == 6)
         {
-            dialogueBox.transform.DOMoveY(700f, 2f);
+            dialogueBox.transform.DOMoveY(600f, 2f);
             print("la boite doit bouger");
         }
         else
         {
             print("la boite ne bouge pas");
         }
+
 
         if (textComponent.text == lines[index])
         {
