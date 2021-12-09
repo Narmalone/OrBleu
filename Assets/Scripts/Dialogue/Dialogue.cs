@@ -29,7 +29,12 @@ public class Dialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (DialogueCount == 11)
+        {
+           
+            dialogueBox.transform.DOLocalMoveY(-200f, 2f);
+
+        }
     }
 
     //Début du dialoqgue
@@ -80,6 +85,7 @@ public class Dialogue : MonoBehaviour
             print("la boite ne bouge pas");
         }
 
+       
 
         if (textComponent.text == lines[index])
         {

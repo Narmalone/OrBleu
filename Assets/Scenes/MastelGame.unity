@@ -5175,7 +5175,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh41228
+  m_Name: pb_Mesh22900
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10158,7 +10158,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh39078
+  m_Name: pb_Mesh20752
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14213,7 +14213,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh39292
+  m_Name: pb_Mesh20966
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16270,7 +16270,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh41470
+  m_Name: pb_Mesh23142
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16909,7 +16909,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh38614
+  m_Name: pb_Mesh20286
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21597,7 +21597,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh40486
+  m_Name: pb_Mesh22158
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -29870,7 +29870,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh39694
+  m_Name: pb_Mesh21370
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -33037,7 +33037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firsTimeTutorial: {fileID: 1683978783}
-  ArrowTwoD: {fileID: 789174363}
+  ArrowTwoD: {fileID: 353595384}
   ArrowBox: {fileID: 789174363}
   PointerArrowTuto: {fileID: 1130636565}
   dialogue: {fileID: 1786779754}
@@ -44156,7 +44156,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh40462
+  m_Name: pb_Mesh22134
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -47938,6 +47938,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 72075003}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1130636568}
+        m_TargetAssemblyTypeName: TwoDTuto, Assembly-CSharp
+        m_MethodName: ReSetActive
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -52537,21 +52549,28 @@ MonoBehaviour:
   - "Clique maintenant sur le bouton que tu viens de d\xE9bloquer afin de lancer
     ta premi\xE8re exp\xE9dition !"
   - "Tu dois d'abord choisir une route ! Commence par cliquer sur la route s\xE9curis\xE9e.
-    Puis tu doit choisir le nombre de caravanne \xE0 envoyer, clique sur la caravanne
+    Puis tu dois choisir le nombre de caravanne \xE0 envoyer, clique sur la caravanne
     que tu poss\xE8de !"
   - "Le vert signifie que c'est sans danger.\nAppuie sur valider pour envoyer ta
     premi\xE8re exp\xE9dition !"
-  - "Bien jou\xE9.\nN'oublie pas que tu peux zoomer/d\xE9zoomer si tu en ressens
-    le besoin !\n\n\n\n\n\n\nT\n"
-  - "Tu peux acheter des caravanes en cliquant sur la ville du milieu et fait attention
-    aux routes dangereuses, rapides mais peu s\xFBres....  Certains sont pr\xEAts
-    \xE0 tout pour \xE9liminer la concurrence."
-  - "Sur les boutons \xE0 gauche de ton \xE9crans tu peux acc\xE9der aux options,
-    te rafra\xEEchir la m\xE9moire sur les r\xE8gles ou encore voir tes concurrents
+  - "Tu peux \xE0 pr\xE9sent acheter une caravane.\nClique sur le bouton central
     !"
-  - "Tu disposes \xE0 pr\xE9sent de 6 minutes pour me vaincre !\nTu peux voir les
-    concurrents que tu dois vaincres (moi compris) en cliquand sur l'ic\xF4ne en
-    bas \xE0 gauche !"
+  - "Chaques caravanes que tu envoies te rapportent 150 d'or et acheter une caravane
+    en co\xFBte 250.\nClique sur le bouton acheter pour avoir une caravane suppl\xE9mentaire"
+  - "Bien jou\xE9 ! Tu peux poss\xE9der un maximum de 24 caravanes.\nMaintenant,
+    quitte le panneau d'achat et voyons ensemble ce \xE0 quoi tu as acc\xE8s."
+  - "Nous sommes si chanceux d'\xEAtre \xE0 la Renaissance et de pouvoir exporter
+    le Pastel, c'est super rentable. Travailles dur et peut-\xEAtre que tu arrivera
+    un jour \xE0 ma cheville hahaha !"
+  - "A droite se trouvent tes diff\xE9rentes ressources.\nA gauche tu peux acc\xE9der
+    aux options, \xE0 la l\xE9gende si jamais tu as un trous de m\xE9moire. Ou encore
+    pour voir la richesse des concurrents \xE0 battre !\n"
+  - "Ce qui est probablement impossible pour toi vu que je suis \xE0 la t\xEAte de
+    ce march\xE9. Si je peux te donner un conseil fais attention aux routes que tu
+    d\xE9cides d'emprunter. Elles peuvent \xEAtre emplies de surprises."
+  - "Tu peux zoomer et d\xE9zoomer \xE0 l'aide de tes doigts si tu le souhaite !\nTu
+    disposes \xE0 pr\xE9sent de 6 minutes pour essayer de nous vaincre mouahahaha
+    !"
   dialogueBox: {fileID: 921935657}
   textSpeed: 1.5
   DialogueCount: 0
@@ -52570,7 +52589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firsTimeTutorial: {fileID: 1683978783}
   ArrowTwoD: {fileID: 353595384}
-  ArrowBox: {fileID: 0}
+  ArrowBox: {fileID: 789174363}
   PointerArrowTuto: {fileID: 1130636565}
   dialogue: {fileID: 1786779754}
   anim_TwoArrow: {fileID: 789174367}
@@ -59653,6 +59672,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 72075003}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1130636568}
+        m_TargetAssemblyTypeName: TwoDTuto, Assembly-CSharp
+        m_MethodName: ReSetSetActiveFalse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -66829,6 +66860,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1952221352}
         m_TargetAssemblyTypeName: buyCaravanes, Assembly-CSharp
         m_MethodName: buyCaravane
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1130636568}
+        m_TargetAssemblyTypeName: TwoDTuto, Assembly-CSharp
+        m_MethodName: tutoPastelCollect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

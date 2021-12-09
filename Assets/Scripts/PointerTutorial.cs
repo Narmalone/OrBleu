@@ -50,9 +50,15 @@ public class PointerTutorial : MonoBehaviour
 
             TutoGuide.transform.DOMove(new Vector3(-204.85f, 96.56f, -270.953f),2f);
         }
-        else if(dialogue.DialogueCount == 8 && firsttimeTutorial.isFirstTime == true)
+        else if(dialogue.DialogueCount == 9 && firsttimeTutorial.isFirstTime == true)
         {
-            
+            animCount = 4;
+            TutoGuide.transform.DOMove(new Vector3(-205.137f, 96.56f, -270.645f), 2f);
+        }
+        else if(dialogue.DialogueCount == 11 && firsttimeTutorial.isFirstTime == true)
+        {
+            TutoGuide.SetActive(false);
+
         }
     }
 

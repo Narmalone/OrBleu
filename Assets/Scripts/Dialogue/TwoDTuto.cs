@@ -44,12 +44,20 @@ public class TwoDTuto : MonoBehaviour
         else if (dialogue.DialogueCount == 7)
         {
             PointerArrowTuto.SetActive(true);
+            ArrowTwoD.SetActive(false);
+
             anim_TwoArrow.SetTrigger("Enter");
         }
-        else if (dialogue.DialogueCount == 8)
+        else if (dialogue.DialogueCount == 10)
         {
-
+            ArrowTwoD.SetActive(false);
+            ArrowBox.SetActive(true);
         }
+        else if (dialogue.DialogueCount == 12)
+        {
+            ArrowTwoD.SetActive(true);
+        }
+
     }
 
 
@@ -72,7 +80,14 @@ public class TwoDTuto : MonoBehaviour
             ArrowBox.transform.DOLocalMoveY(-25f, 1f);
             ArrowBox.transform.DOLocalMoveX(-300f, 2f);
         }
-        
+        else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 10)
+        {
+            dialogue.GoNextDialog();
+        }
+        else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 11)
+        {
+
+        }
     }
 
     public void tutoCaraSelected()
@@ -89,6 +104,7 @@ public class TwoDTuto : MonoBehaviour
             dialogue.GoNextDialog();
             print("aller dialogue 9");
         }
+       
     }
     public void tutoValidated()
     {
@@ -96,4 +112,24 @@ public class TwoDTuto : MonoBehaviour
         ArrowTwoD.SetActive(false);
     }
 
+    public void ReSetActive()
+    {
+        if(firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 9)
+        {
+            ArrowBox.SetActive(true);
+            ArrowTwoD.SetActive(true);
+            anim_TwoArrow.SetTrigger("Enter");
+            dialogue.GoNextDialog();
+
+        }
+    }
+    public void ReSetSetActiveFalse()
+    {
+        if(firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 11)
+        {
+            ArrowBox.SetActive(false);
+            dialogue.GoNextDialog();
+        }
+        
+    }
 }
