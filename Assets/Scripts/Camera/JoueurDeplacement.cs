@@ -13,8 +13,6 @@ public class JoueurDeplacement : MonoBehaviour
     public float speedDefilement;
 
     public Camera selectedCamera;
-    public GameObject minLeft;
-    public GameObject maxRight;
 
     public float minPinchSpeed = 5.0F;
     public float varianceInDistances = 5.0F;

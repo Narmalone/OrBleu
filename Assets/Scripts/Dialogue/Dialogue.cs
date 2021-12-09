@@ -86,7 +86,7 @@ public class Dialogue : MonoBehaviour
     {
         if (DialogueCount == 7)
         {
-            dialogueBox.transform.DOMoveY(620f, 2f);
+            dialogueBox.transform.DOMoveY(700f, 2f);
         }
         else 
         {
