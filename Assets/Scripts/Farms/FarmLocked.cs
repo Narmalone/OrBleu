@@ -32,6 +32,8 @@ public class FarmLocked : MonoBehaviour
             farmLocked = false;
             UnlockButton.SetActive(false);
             ButtonDisabledStart.SetActive(true);
+
+            print(UnlockButton);
         }
         else
         {
@@ -40,7 +42,6 @@ public class FarmLocked : MonoBehaviour
         
 
     }
-
 
 
 }

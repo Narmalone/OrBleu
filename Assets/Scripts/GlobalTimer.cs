@@ -28,7 +28,7 @@ public class GlobalTimer : MonoBehaviour
     private void Update()
     {
 
-        if(dialogue.DialogueCount > 12)
+        if(dialogue.DialogueCount > 15)
         {
             isActivated = true;
             //print("Activated true");

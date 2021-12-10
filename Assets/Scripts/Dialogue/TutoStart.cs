@@ -2,31 +2,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FirsttimeTutorial : MonoBehaviour
+public class TutoStart : MonoBehaviour
 {
 
-    public bool isFirstTime;
-    public Dialogue dialogue;
+   /* public FirsttimeTutorial firstTimeTutorial;
 
-    public GameObject inTutorialCityA;
-    public GameObject inTutorialCityF;
-    public GameObject inTutorialCityC;
+    
 
-
-    public GameObject inTutorialFarm2;
-    public GameObject inTutorialFarm3;
     // Start is called before the first frame update
     void Start()
     {
-        
 
+       
+        
     }
 
     // Update is called once per frame
-    void Update()
+    //void Update()
     {
-       
-        if (isFirstTime == true)
+        if(firstTimeTutorial.isFirstTime == false)
+        {
+            inTutorialCityA.SetActive(true);
+            inTutorialCityF.SetActive(true);
+            inTutorialCityC.SetActive(true);
+
+            inTutorialFarm2.SetActive(true);
+            inTutorialFarm3.SetActive(true);
+
+        }
+        else if (firstTimeTutorial.isFirstTime == true)
         {
             inTutorialCityA.SetActive(false);
             inTutorialCityF.SetActive(false);
@@ -38,15 +42,6 @@ public class FirsttimeTutorial : MonoBehaviour
             print("les boutons doivent être désactivés");
 
         }
-    }
-    public void FirstTime()
-    {
-        isFirstTime = true;
-    }
-
-    public void notFirstTime()
-    {
-        isFirstTime = false;
-    }
-
+       
+    }*/
 }

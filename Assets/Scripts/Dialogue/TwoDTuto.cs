@@ -56,6 +56,15 @@ public class TwoDTuto : MonoBehaviour
         else if (dialogue.DialogueCount == 12)
         {
             ArrowTwoD.SetActive(true);
+            ArrowBox.SetActive(false);
+        }
+        else if(dialogue.DialogueCount == 13)
+        {
+            ArrowBox.SetActive(true);
+        }
+        else if (dialogue.DialogueCount == 14)
+        {
+           
         }
 
     }
@@ -82,12 +91,30 @@ public class TwoDTuto : MonoBehaviour
         }
         else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 10)
         {
+            ArrowBox.transform.Rotate(new Vector3(180f, 0f, 0f));
+            ArrowBox.transform.DOLocalMoveX(420f, 2f);
+            ArrowBox.transform.DOLocalMoveY(172f, 2f);
             dialogue.GoNextDialog();
         }
-        else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 11)
+        else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 13)
         {
-
+            ArrowBox.transform.DOLocalMove(new Vector3(262.2f, 80.5f, 0f), 2f);
         }
+        else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 14)
+        {
+            ArrowBox.transform.Rotate(new Vector3(180f, 0f, 0f));
+            ArrowBox.transform.DOLocalMove(new Vector3(-419f, 13f, 0f), 2f);
+        } 
+        
+        else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 15)
+        {
+            ArrowBox.SetActive(false);
+        }
+        if(firsTimeTutorial == false)
+        {
+            print("ne fait rien");
+        }
+        
     }
 
     public void tutoCaraSelected()
@@ -104,8 +131,20 @@ public class TwoDTuto : MonoBehaviour
             dialogue.GoNextDialog();
             print("aller dialogue 9");
         }
-       
+        if (firsTimeTutorial == false)
+        {
+            print("ne fait rien");
+        }
+
     }
+    public void inTuto()
+    {
+        if (firsTimeTutorial == false)
+        {
+            print("ne fait rien");
+        }
+    }
+
     public void tutoValidated()
     {
         ArrowBox.SetActive(false);
@@ -122,14 +161,21 @@ public class TwoDTuto : MonoBehaviour
             dialogue.GoNextDialog();
 
         }
+        else if (firsTimeTutorial == false && dialogue.DialogueCount == 0)
+        {
+            print("ne fait rien");
+        }
     }
     public void ReSetSetActiveFalse()
     {
         if(firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 11)
         {
-            ArrowBox.SetActive(false);
             dialogue.GoNextDialog();
         }
-        
+        else if (firsTimeTutorial == false)
+        {
+            print("ne fait rien");
+        }
+
     }
 }

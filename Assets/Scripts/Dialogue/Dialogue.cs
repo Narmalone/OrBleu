@@ -11,6 +11,8 @@ public class Dialogue : MonoBehaviour
 
     public GameObject dialogueBox;
 
+    public FirsttimeTutorial firstTimeTurorial;
+
 
     public float textSpeed;
 
@@ -32,8 +34,13 @@ public class Dialogue : MonoBehaviour
         if (DialogueCount == 11)
         {
            
-            dialogueBox.transform.DOLocalMoveY(-200f, 2f);
+            dialogueBox.transform.DOLocalMoveY(-300f, 2f);
 
+        }
+        else if (DialogueCount == 15)
+        {
+            firstTimeTurorial.isFirstTime = false;
+            print("Le joueur n'est plus dans le tuto");
         }
     }
 
