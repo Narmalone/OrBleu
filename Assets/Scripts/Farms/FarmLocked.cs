@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class FarmLocked : MonoBehaviour
 {
     public bool farmLocked;
+
+    public FirsttimeTutorial firstTimeTutorial;
 
     public GameObject UnlockButton;
 
@@ -24,16 +27,17 @@ public class FarmLocked : MonoBehaviour
 
     public void UnlockFarm()
     {
-        if(Goldmanager.myGold >= 150)
+        if(Goldmanager.myGold >= 150 && firstTimeTutorial.isFirstTime == false)
         {
             Goldmanager.myGold -= 150;
             Goldmanager.goldUpdate();
             gold.UpdateGold();
             farmLocked = false;
-            UnlockButton.SetActive(false);
             ButtonDisabledStart.SetActive(true);
 
-            print(UnlockButton);
+            //DOMove car le SetActive ne marchait pas
+            UnlockButton.transform.DOMoveX(2000f, 2f);
+            //print(UnlockButton);
         }
         else
         {
@@ -41,7 +45,8 @@ public class FarmLocked : MonoBehaviour
         }
         
 
-    }
+   }
+
 
 
 }

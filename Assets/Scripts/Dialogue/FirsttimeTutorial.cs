@@ -6,6 +6,7 @@ public class FirsttimeTutorial : MonoBehaviour
 {
 
     public bool isFirstTime;
+    public bool wasInTuto;
     public Dialogue dialogue;
 
     public GameObject inTutorialCityA;
@@ -18,7 +19,7 @@ public class FirsttimeTutorial : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        wasInTuto = true;
 
     }
 
@@ -36,6 +37,17 @@ public class FirsttimeTutorial : MonoBehaviour
             inTutorialFarm3.SetActive(false);
 
             print("les boutons doivent être désactivés");
+
+        }
+        else if (isFirstTime == false)
+        {
+            inTutorialCityA.SetActive(true);
+            inTutorialCityF.SetActive(true);
+            inTutorialCityC.SetActive(true);
+
+            inTutorialFarm2.SetActive(true);
+            inTutorialFarm3.SetActive(true);
+            wasInTuto = false;
 
         }
     }

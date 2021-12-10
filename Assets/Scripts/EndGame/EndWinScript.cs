@@ -7,12 +7,6 @@ using UnityEngine.UI;
 public class EndWinScript : MonoBehaviour
 {
 
-    public TextMeshProUGUI VictoryTxt;
-
-    //public TextMeshProUGUI VictoryTxt;
-
-    public GameObject VictoryScreen;
-
 
     public GoldManager goldManager;
 
@@ -27,9 +21,10 @@ public class EndWinScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //10k gold pour le moment
+        //5000 golds
         if (globalTimer.timeValue <= 0 && goldManager.myGold > 5000)
         {
+
             GetComponent<TextMeshProUGUI>().text = goldManager.myGold.ToString();
         }
     }

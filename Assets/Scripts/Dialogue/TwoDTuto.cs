@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.UI;
 
 public class TwoDTuto : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class TwoDTuto : MonoBehaviour
 
     public Animator anim_TwoArrow;
 
+    public GameObject RecoltPastelObject;
 
     // Start is called before the first frame update
     void Start()
@@ -62,14 +64,33 @@ public class TwoDTuto : MonoBehaviour
         {
             ArrowBox.SetActive(true);
         }
-        else if (dialogue.DialogueCount == 14)
+
+
+        if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount! <= 2)
         {
-           
+            RecoltPastelObject.GetComponent<Button>().interactable = false;
+
+            print("il doit ne pas s'activer");
         }
+
+        else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount! == 3)
+        {
+            RecoltPastelObject.GetComponent<Button>().interactable = true;
+            print("il doit s'activer !");
+        } 
+        
+        else if (firsTimeTutorial.isFirstTime == false && dialogue.DialogueCount! == 16)
+        {
+            RecoltPastelObject.GetComponent<Button>().interactable = true;
+            print("il doit s'activer !");
+        }
+
+
+
 
     }
 
-
+    //méthode pas la plus opti du tout car le joueur peut limite faire n'imp avec le tuto mais suffisant pour un proto
     public void tutoPastelCollect()
     {
         if(firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 3)
@@ -98,19 +119,20 @@ public class TwoDTuto : MonoBehaviour
         }
         else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 13)
         {
-            ArrowBox.transform.DOLocalMove(new Vector3(262.2f, 80.5f, 0f), 2f);
+            ArrowBox.transform.DOLocalMove(new Vector3(380f, 200f, 0f), 2f);
         }
         else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 14)
         {
             ArrowBox.transform.Rotate(new Vector3(180f, 0f, 0f));
-            ArrowBox.transform.DOLocalMove(new Vector3(-419f, 13f, 0f), 2f);
+            ArrowBox.transform.DOLocalMove(new Vector3(-500f, 200f, 0f), 2f);
         } 
         
         else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 15)
         {
             ArrowBox.SetActive(false);
         }
-        if(firsTimeTutorial == false)
+      
+        if (firsTimeTutorial == false)
         {
             print("ne fait rien");
         }
@@ -177,5 +199,15 @@ public class TwoDTuto : MonoBehaviour
             print("ne fait rien");
         }
 
+    }
+
+    public void CheckPastelCollect()
+    {
+
+        if(firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 4)
+        {
+            RecoltPastelObject.GetComponent<Button>().interactable = false;
+
+        }
     }
 }

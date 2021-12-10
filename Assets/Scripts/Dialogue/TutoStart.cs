@@ -5,9 +5,14 @@ using UnityEngine;
 public class TutoStart : MonoBehaviour
 {
 
-   /* public FirsttimeTutorial firstTimeTutorial;
+   /*public FirsttimeTutorial firstTimeTutorial;
 
-    
+    public GameObject inTutorialCityA;
+    public GameObject inTutorialCityF;
+    public GameObject inTutorialCityC;
+
+    public GameObject inTutorialFarm2;
+    public GameObject inTutorialFarm3;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +23,7 @@ public class TutoStart : MonoBehaviour
     }
 
     // Update is called once per frame
-    //void Update()
+    void Update()
     {
         if(firstTimeTutorial.isFirstTime == false)
         {
@@ -28,18 +33,6 @@ public class TutoStart : MonoBehaviour
 
             inTutorialFarm2.SetActive(true);
             inTutorialFarm3.SetActive(true);
-
-        }
-        else if (firstTimeTutorial.isFirstTime == true)
-        {
-            inTutorialCityA.SetActive(false);
-            inTutorialCityF.SetActive(false);
-            inTutorialCityC.SetActive(false);
-
-            inTutorialFarm2.SetActive(false);
-            inTutorialFarm3.SetActive(false);
-
-            print("les boutons doivent être désactivés");
 
         }
        
