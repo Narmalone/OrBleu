@@ -19,6 +19,8 @@ public class TwoDTuto : MonoBehaviour
 
     public Animator anim_TwoArrow;
 
+    public Animator anim_DialogueBox;
+
     public GameObject RecoltPastelObject;
 
     // Start is called before the first frame update
@@ -26,6 +28,7 @@ public class TwoDTuto : MonoBehaviour
     {
         ArrowTwoD.SetActive(true);
         anim_TwoArrow.GetComponent<Animator>();
+        anim_DialogueBox.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -59,10 +62,6 @@ public class TwoDTuto : MonoBehaviour
         {
             ArrowTwoD.SetActive(true);
             ArrowBox.SetActive(false);
-        }
-        else if(dialogue.DialogueCount == 13)
-        {
-            ArrowBox.SetActive(true);
         }
 
 
@@ -103,12 +102,13 @@ public class TwoDTuto : MonoBehaviour
         }
         else if(firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 6)
         {
+            anim_DialogueBox.SetTrigger("EnterFirst");
             dialogue.GoNextDialog();
         }
         else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 7)
         {
             ArrowBox.transform.DOLocalMoveY(-25f, 1f);
-            ArrowBox.transform.DOLocalMoveX(-300f, 2f);
+            ArrowBox.transform.DOLocalMoveX(-320f, 2f);
         }
         else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 10)
         {
@@ -117,15 +117,6 @@ public class TwoDTuto : MonoBehaviour
             ArrowBox.transform.DOLocalMoveY(172f, 2f);
             dialogue.GoNextDialog();
         }
-        else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 13)
-        {
-            ArrowBox.transform.DOLocalMove(new Vector3(380f, 200f, 0f), 2f);
-        }
-        else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 14)
-        {
-            ArrowBox.transform.Rotate(new Vector3(180f, 0f, 0f));
-            ArrowBox.transform.DOLocalMove(new Vector3(-500f, 200f, 0f), 2f);
-        } 
         
         else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 15)
         {
@@ -145,7 +136,7 @@ public class TwoDTuto : MonoBehaviour
         {
             dialogue.GoNextDialog();
             ArrowBox.transform.DOLocalMoveX(140f, 2f);
-            ArrowBox.transform.DOLocalMoveY(-255f, 2f);
+            ArrowBox.transform.DOLocalMoveY(-250f, 2f);
             
         }
         else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 8)

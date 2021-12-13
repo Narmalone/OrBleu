@@ -1740,7 +1740,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -242.6, y: -231.3}
+  m_AnchoredPosition: {x: -242.60156, y: -231.30078}
   m_SizeDelta: {x: 100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &61717027
@@ -19366,7 +19366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -663.6, y: -339.6}
+  m_AnchoredPosition: {x: -663.60156, y: -339.60156}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &658169875
@@ -23755,7 +23755,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -80.4, y: 61.1}
+  m_AnchoredPosition: {x: -159, y: 61.1}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &789174365
@@ -24595,10 +24595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CaravannePosseded: 0
-  CaraInRoadSafeMontauban: 0
-  CaraInRoadDangerousMontauban: 0
-  CaraInRoadSafeRabastens: 0
-  CaraInRoadDangerousRabastens: 0
+  firstTimeTurorial: {fileID: 971957964}
 --- !u!1 &820173189
 GameObject:
   m_ObjectHideFlags: 0
@@ -26655,8 +26652,9 @@ GameObject:
   - component: {fileID: 921935658}
   - component: {fileID: 921935660}
   - component: {fileID: 921935659}
+  - component: {fileID: 921935661}
   m_Layer: 5
-  m_Name: Image
+  m_Name: BoiteDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26680,7 +26678,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12, y: 41}
+  m_AnchoredPosition: {x: 0, y: -217}
   m_SizeDelta: {x: 1200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &921935659
@@ -26721,6 +26719,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921935657}
   m_CullTransparentMesh: 1
+--- !u!95 &921935661
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921935657}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5f69d5b989bdd2b46b20b4db1db88808, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &923152838
 GameObject:
   m_ObjectHideFlags: 0
@@ -29288,6 +29305,7 @@ MonoBehaviour:
   inTutorialCityC: {fileID: 601829657}
   inTutorialFarm2: {fileID: 1412400465}
   inTutorialFarm3: {fileID: 820173189}
+  buttonFarmLevel: {fileID: 1981409377}
 --- !u!1 &974513367
 GameObject:
   m_ObjectHideFlags: 0
@@ -32825,6 +32843,7 @@ MonoBehaviour:
   PointerArrowTuto: {fileID: 1130636565}
   dialogue: {fileID: 1786779754}
   anim_TwoArrow: {fileID: 789174367}
+  anim_DialogueBox: {fileID: 921935661}
   RecoltPastelObject: {fileID: 1595849795}
 --- !u!1 &1131250145
 GameObject:
@@ -33878,7 +33897,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1, y: 6}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1100, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1157522630
@@ -35637,6 +35656,18 @@ MonoBehaviour:
       - m_Target: {fileID: 971957964}
         m_TargetAssemblyTypeName: FirsttimeTutorial, Assembly-CSharp
         m_MethodName: FirstTime
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 814425818}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: onTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -40571,7 +40602,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -707.8, y: -311}
+  m_AnchoredPosition: {x: -707.7969, y: -311}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1343005211
@@ -41145,7 +41176,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -242.6, y: -231.3}
+  m_AnchoredPosition: {x: -242.60156, y: -231.30078}
   m_SizeDelta: {x: 100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1364269390
@@ -42629,7 +42660,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1, y: -140.6}
+  m_AnchoredPosition: {x: -1, y: -140.60156}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1426596252
@@ -43726,7 +43757,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -242.6, y: -231.3}
+  m_AnchoredPosition: {x: -242.60156, y: -231.30078}
   m_SizeDelta: {x: 100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1475959769
@@ -52530,7 +52561,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -338}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1786779753
@@ -52596,11 +52627,11 @@ MonoBehaviour:
   - "Tu peux zoomer et d\xE9zoomer \xE0 l'aide de tes doigts si tu le souhaites !\nTu
     disposes \xE0 pr\xE9sent de 6 minutes pour essayer de nous vaincre mouahahaha
     !"
-  dialogueBox: {fileID: 921935657}
   firstTimeTurorial: {fileID: 971957964}
   textSpeed: 0.5
   DialogueCount: 0
   pointertutorial: {fileID: 1196319336}
+  DialogueBoxAnim: {fileID: 921935661}
 --- !u!114 &1786779755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52619,6 +52650,7 @@ MonoBehaviour:
   PointerArrowTuto: {fileID: 1130636565}
   dialogue: {fileID: 1786779754}
   anim_TwoArrow: {fileID: 789174367}
+  anim_DialogueBox: {fileID: 921935661}
   RecoltPastelObject: {fileID: 1595849795}
 --- !u!1 &1788960986
 GameObject:
@@ -57474,7 +57506,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0

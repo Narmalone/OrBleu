@@ -12,7 +12,7 @@ public class PastelManager : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
-        myPastel = 10;
+        myPastel = 5;
     }
 
     // Update is called once per frame

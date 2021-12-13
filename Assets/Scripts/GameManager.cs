@@ -6,11 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public int CaravannePosseded;
 
-    public bool CaraInRoadSafeMontauban;
-    public bool CaraInRoadDangerousMontauban;
-    
-    public bool CaraInRoadSafeRabastens;
-    public bool CaraInRoadDangerousRabastens;
+    public FirsttimeTutorial firstTimeTurorial;
 
     void Start()
     {
@@ -22,6 +18,15 @@ public class GameManager : MonoBehaviour
         if(CaravannePosseded <= 0)
         {
             CaravannePosseded = 0;
+        }
+    }
+
+    public void onTutorial()
+    {
+        if (firstTimeTurorial.isFirstTime == true)
+        {
+            CaravannePosseded = 1;
+
         }
     }
 }

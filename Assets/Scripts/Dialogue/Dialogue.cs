@@ -8,9 +8,6 @@ public class Dialogue : MonoBehaviour
 
     public TextMeshProUGUI textComponent;
     [TextArea(0,3)] public string[] lines;
-
-    public GameObject dialogueBox;
-
     public FirsttimeTutorial firstTimeTurorial;
 
 
@@ -21,11 +18,18 @@ public class Dialogue : MonoBehaviour
 
     public PointerTutorial pointertutorial;
 
+    public Animator DialogueBoxAnim;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         textComponent.text = string.Empty;
         DialogueCount = 0;
+
+        DialogueBoxAnim.GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -33,9 +37,7 @@ public class Dialogue : MonoBehaviour
     {
         if (DialogueCount == 11)
         {
-           
-            dialogueBox.transform.DOLocalMoveY(-30f, 2f);
-
+            DialogueBoxAnim.SetTrigger("EnterSecond");
         }
         else if (DialogueCount == 15)
         {
@@ -79,18 +81,6 @@ public class Dialogue : MonoBehaviour
     //passer au dialogue suivant => modif vers le PointerTutorial//
     public void GoNextDialog()
     {
-
-
-        //a modif en fonction de l'écran !!
-        if (DialogueCount == 6)
-        {
-            dialogueBox.transform.DOMoveY(750f, 2f);
-            print("la boite doit bouger");
-        }
-        else
-        {
-            print("la boite ne bouge pas");
-        }
 
        
 

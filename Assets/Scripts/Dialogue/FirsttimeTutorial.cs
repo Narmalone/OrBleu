@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
+using TMPro;
 public class FirsttimeTutorial : MonoBehaviour
 {
 
@@ -16,6 +17,9 @@ public class FirsttimeTutorial : MonoBehaviour
 
     public GameObject inTutorialFarm2;
     public GameObject inTutorialFarm3;
+
+    public GameObject buttonFarmLevel;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +40,8 @@ public class FirsttimeTutorial : MonoBehaviour
             inTutorialFarm2.SetActive(false);
             inTutorialFarm3.SetActive(false);
 
+            buttonFarmLevel.GetComponent<Button>().interactable = false;
+
             print("les boutons doivent être désactivés");
 
         }
@@ -48,6 +54,8 @@ public class FirsttimeTutorial : MonoBehaviour
             inTutorialFarm2.SetActive(true);
             inTutorialFarm3.SetActive(true);
             wasInTuto = false;
+
+            buttonFarmLevel.GetComponent<Button>().interactable = true;
 
         }
     }
