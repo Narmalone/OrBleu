@@ -40,7 +40,7 @@ public class PointerTutorial : MonoBehaviour
         }
         else if (dialogue.DialogueCount == 4 && firsttimeTutorial.isFirstTime == true)
         {
-            TutoGuide.transform.DOMove(new Vector3(-204.71f, 96.56f, -271.06f),2f);
+            TutoGuide.transform.DOMove(new Vector3(-204.9756f, 96.56f, -269.9886f),2f);
             animCount = 2;
 
         }

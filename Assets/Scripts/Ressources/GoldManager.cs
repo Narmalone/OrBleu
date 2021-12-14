@@ -10,9 +10,8 @@ public class GoldManager : MonoBehaviour
 
     private void Start()
     {
-        myGold = 250;
+        myGold = 450;
     }
-
 
     public void goldUpdate()
     {

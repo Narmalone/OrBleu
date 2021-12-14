@@ -7,6 +7,8 @@ public class defeatByCaravel : MonoBehaviour
     public float currentTime;
     public float StartingTime;
 
+    public GoldManager goldManager;
+
     public GameManager gameManager;
     public GameObject defeatByCaravelScreen;
 

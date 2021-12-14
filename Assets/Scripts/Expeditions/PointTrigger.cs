@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class PointTrigger : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class PointTrigger : MonoBehaviour
     public bool end;
     public bool start;
     public bool MidBanditEvent;
+
 
     public Gold gold;
     public GoldManager Goldmanager;
@@ -27,12 +29,17 @@ public class PointTrigger : MonoBehaviour
         //définir la caravane car
         Caravane car = caravane.GetComponent<Caravane>();
 
+
+        if (start)
+        {
+            print("animconnard");
+        }
         //si collide avec un point qui a bool end
-        if (end)
+        else if (end)
         {
             //faire revenir le car
             car.isComingBack = true;
-           
+
         }
         else if (MidBanditEvent == true && FindObjectOfType<BanditEvent>().UnderAttack == true && car.CaraDanger)
         {
@@ -104,7 +111,6 @@ public class PointTrigger : MonoBehaviour
             //Rajouter 1 caravane disponible comme elle est revenue
             gamemanager.CaravannePosseded++;
             print(gamemanager.CaravannePosseded);
-
             //Détruire la caravane
             Destroy(car.gameObject);
 

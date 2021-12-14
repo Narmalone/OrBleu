@@ -26,7 +26,7 @@ public class Caravane : MonoBehaviour
         myIndexNextPos = 0;
         transform.position = points[0].transform.position;
         isComingBack = false;
-
+        GetComponent<Animator>().SetTrigger("Enter");
     }
 
     private void Update()
@@ -36,6 +36,15 @@ public class Caravane : MonoBehaviour
         {
             transform.position = Vector3.MoveTowards(transform.position, points[myIndexNextPos].transform.position, speed * Time.deltaTime);
 
+        }
+        var lookPos = points[myIndexNextPos].transform.position - transform.position;
+        lookPos.y = 0;
+        if (lookPos == Vector3.zero) { }
+        else
+        {
+            var rotation = Quaternion.LookRotation(lookPos);
+            rotation = rotation * Quaternion.Euler(0,90,0); 
+            transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * 5);
         }
 
     }

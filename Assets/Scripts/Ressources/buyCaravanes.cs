@@ -12,6 +12,8 @@ public class buyCaravanes : MonoBehaviour
 
     public GameObject AcheterCaravanne;
 
+    public CaravanePossessedManager CPM;
+
     public Gold gold;
 
 
@@ -43,7 +45,7 @@ public class buyCaravanes : MonoBehaviour
             AcheterCaravanne.GetComponent<Button>().interactable = false;
             Debug.Log("Vous ne possédez pas assez d'argent");
         }
-        if(Goldmanager.myGold >= 250)
+        else if(Goldmanager.myGold >= 250)
         {
             gamemanager.CaravannePosseded++;
             AcheterCaravanne.GetComponent<Button>().interactable = true;

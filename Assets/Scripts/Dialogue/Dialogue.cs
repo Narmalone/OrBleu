@@ -78,11 +78,9 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    //passer au dialogue suivant => modif vers le PointerTutorial//
+    //aller au dialogue suivant//
     public void GoNextDialog()
     {
-
-       
 
         if (textComponent.text == lines[index])
         {
@@ -96,12 +94,6 @@ public class Dialogue : MonoBehaviour
             StopAllCoroutines();
             textComponent.text = lines[index];
         }
-    }
-
-    //Faire monter la boite de dialogue
-    public void UpDialog()
-    {
-       
     }
 
 }
