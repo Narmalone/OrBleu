@@ -16,6 +16,8 @@ public class PointTrigger : MonoBehaviour
     //chercher le gameManager
     GameManager gamemanager;
 
+    public CaravanePossessedManager CPM;
+
     public UnderAttackDialog underAttackDialog;
 
     private void Start()
@@ -45,9 +47,9 @@ public class PointTrigger : MonoBehaviour
         {
             FindObjectOfType<BanditEvent>().UnderAttack = false;
             car.myExpedition.CurrentDangerUse = false;
-            gamemanager.CaravannePosseded--;
-
             underAttackDialog.underAttackDialog.SetActive(true);
+
+            CPM.myCaravanes--;
 
             Destroy(car.gameObject);
 
@@ -59,8 +61,9 @@ public class PointTrigger : MonoBehaviour
             FindObjectOfType<BanditEvent>().UnderAttack = false;
 
             car.myExpedition.CurrentSafeUse = false;
+            CPM.myCaravanes--;
+
             Destroy(car.gameObject);
-            gamemanager.CaravannePosseded--;
             print("car destroy");
         }
         

@@ -12,35 +12,15 @@ public class defeatByCaravel : MonoBehaviour
     public GameManager gameManager;
     public GameObject defeatByCaravelScreen;
 
-    private void Start()
-    {
-        currentTime = StartingTime;
-        StartingTime = 30f;
-    }
+    public CaravanePossessedManager CPM;
 
-    public void Update()
+
+    private void Update()
     {
-        if(gameManager.CaravannePosseded == 0)
+        if(CPM.myCaravanes == 0 && goldManager.myGold < 250)
         {
-            StartingTime -= 1f * Time.deltaTime;
-            if(StartingTime <= 0)
-            {
-                StartingTime = 0f;
-                defeatByCaravelScreen.SetActive(true);
-                print(StartingTime);
-            }
-            
+            defeatByCaravelScreen.SetActive(true);
         }
-        else if (gameManager.CaravannePosseded > 0)
-        {
-            resetStartingTime();
-        }
-    }
-
-
-    void resetStartingTime()
-    {
-        StartingTime = 30f;
     }
 
 

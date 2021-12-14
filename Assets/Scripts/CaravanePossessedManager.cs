@@ -5,6 +5,8 @@ using UnityEngine;
 public class CaravanePossessedManager : MonoBehaviour
 {
 
+    public GameManager gameManager;
+
     public int myCaravanes;
 
     void Start()

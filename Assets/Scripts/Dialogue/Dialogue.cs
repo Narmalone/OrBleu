@@ -38,12 +38,6 @@ public class Dialogue : MonoBehaviour
         {
             DialogueBoxAnim.SetTrigger("EnterSecond");
         }
-        else if (DialogueCount == 15)
-        {
-            firstTimeTurorial.isFirstTime = false;
-            print("Le joueur n'est plus dans le tuto");
-        }
-
     }
 
     //Début du dialoqgue

@@ -20,6 +20,8 @@ public class GlobalTimer : MonoBehaviour
 
     public Dialogue dialogue;
 
+    public bool waitingForCamMoove;
+
     private void Start()
     {
         //360 = 5 min
@@ -35,9 +37,15 @@ public class GlobalTimer : MonoBehaviour
             //print("Activated true");
         }
 
-        if(timeValue > 0 && isActivated == true)
+       
+
+        if (timeValue > 0 && isActivated == true)
         {
+
+            
             timeValue -= Time.deltaTime;
+            
+           
             //print(timeValue);
         }
         else if (timeValue <= 0 && isActivated == true && goldManager.myGold < 5000)
@@ -72,6 +80,8 @@ public class GlobalTimer : MonoBehaviour
 
     public void noTutorial()
     {
+        timeValue = 365;
+        waitingForCamMoove = true;
         isActivated = true;
     }
 }

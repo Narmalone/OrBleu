@@ -20,6 +20,13 @@ public class FirsttimeTutorial : MonoBehaviour
 
     public GameObject buttonFarmLevel;
 
+    public GameObject goBuyDisabled;
+    public GameObject UnlockFirstCity;
+
+
+    public GameObject CantRiskRoad;
+    public GameObject CantSelectNbCara;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +49,32 @@ public class FirsttimeTutorial : MonoBehaviour
 
             buttonFarmLevel.GetComponent<Button>().interactable = false;
 
+            if(dialogue.DialogueCount != 5)
+            {
+                UnlockFirstCity.GetComponent<Button>().interactable = false;
+
+            }
+            else if (dialogue.DialogueCount == 5)
+            {
+                UnlockFirstCity.GetComponent<Button>().interactable = true;
+
+            }
+            
+            if(dialogue.DialogueCount != 9)
+            {
+                goBuyDisabled.GetComponent<Button>().interactable = false;
+
+            }
+            else if (dialogue.DialogueCount == 9)
+            {
+                goBuyDisabled.GetComponent<Button>().interactable = true;
+
+            }
+
+            CantRiskRoad.GetComponent<Button>().interactable = false;
+            CantSelectNbCara.GetComponent<Button>().interactable = false;
+
+
             print("les boutons doivent être désactivés");
 
         }
@@ -57,6 +90,11 @@ public class FirsttimeTutorial : MonoBehaviour
 
             buttonFarmLevel.GetComponent<Button>().interactable = true;
 
+            goBuyDisabled.GetComponent<Button>().interactable = true;
+            UnlockFirstCity.GetComponent<Button>().interactable = true;
+
+            CantRiskRoad.GetComponent<Button>().interactable = true;
+
         }
     }
     public void FirstTime()
@@ -65,8 +103,18 @@ public class FirsttimeTutorial : MonoBehaviour
     }
 
     public void notFirstTime()
-    {
+    {        
+     
         isFirstTime = false;
+
+    }
+
+    public void endTutorial()
+    {
+        if(dialogue.DialogueCount > 15)
+        {
+            isFirstTime = false;
+        }
     }
 
 }
