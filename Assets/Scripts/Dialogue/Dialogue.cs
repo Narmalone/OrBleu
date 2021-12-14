@@ -7,7 +7,7 @@ public class Dialogue : MonoBehaviour
 {
 
     public TextMeshProUGUI textComponent;
-    [TextArea(0,3)] public string[] lines;
+    [TextArea(0,4)] public string[] lines;
     public FirsttimeTutorial firstTimeTurorial;
 
 
@@ -25,7 +25,6 @@ public class Dialogue : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        textComponent.text = string.Empty;
         DialogueCount = 0;
 
         DialogueBoxAnim.GetComponent<Animator>();
@@ -44,6 +43,7 @@ public class Dialogue : MonoBehaviour
             firstTimeTurorial.isFirstTime = false;
             print("Le joueur n'est plus dans le tuto");
         }
+
     }
 
     //Début du dialoqgue
@@ -83,17 +83,43 @@ public class Dialogue : MonoBehaviour
     {
 
         if (textComponent.text == lines[index])
-        {
-            nextLine();
+        { 
             DialogueCount++;
+            nextLine();
             pointertutorial.Update();
             //print(DialogueCount);
         }
         else
         {
+            if (DialogueCount == 6)
+            {
+                DialogueCount++;
+                nextLine();
+                print("doit passer à 7");
+            }
+
+            else if(DialogueCount == 7)
+            {
+                DialogueCount++;
+                nextLine();
+                print("doit passer à 8");
+            }
+            else if(DialogueCount == 8)
+            {
+                DialogueCount++;
+                nextLine();
+                print("doit passer à 9");
+            }
+            else if(DialogueCount == 10)
+            {
+                DialogueCount++;
+                nextLine();
+                print("doit passer à 11");
+            }
+           
+
             StopAllCoroutines();
             textComponent.text = lines[index];
         }
     }
-
 }
