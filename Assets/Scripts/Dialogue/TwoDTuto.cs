@@ -108,13 +108,13 @@ public class TwoDTuto : MonoBehaviour
         else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 7)
         {
             ArrowBox.transform.DOLocalMoveY(-25f, 1f);
-            ArrowBox.transform.DOLocalMoveX(-320f, 2f);
+            ArrowBox.transform.DOLocalMoveX(-400f, 2f);
         }
         else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 10)
         {
             ArrowBox.transform.Rotate(new Vector3(180f, 0f, 0f));
-            ArrowBox.transform.DOLocalMoveX(420f, 2f);
-            ArrowBox.transform.DOLocalMoveY(172f, 2f);
+            ArrowBox.transform.DOLocalMoveX(500f, 2f);
+            ArrowBox.transform.DOLocalMoveY(190f, 2f);
             dialogue.GoNextDialog();
         }
         
@@ -136,7 +136,7 @@ public class TwoDTuto : MonoBehaviour
         {
             dialogue.GoNextDialog();
             ArrowBox.transform.DOLocalMoveX(140f, 2f);
-            ArrowBox.transform.DOLocalMoveY(-250f, 2f);
+            ArrowBox.transform.DOLocalMoveY(-280f, 2f);
             
         }
         else if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 8)
