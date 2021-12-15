@@ -16,6 +16,8 @@ public class GlobalTimer : MonoBehaviour
     public GameObject globalTimer;
     public bool isActivated;
 
+    //public GameObject runningOutOfTime;
+
     public GoldManager goldManager;
 
     public Dialogue dialogue;

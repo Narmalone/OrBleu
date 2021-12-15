@@ -59,10 +59,9 @@ public class PointTrigger : MonoBehaviour
 
         {
             FindObjectOfType<BanditEvent>().UnderAttack = false;
-
             car.myExpedition.CurrentSafeUse = false;
             CPM.myCaravanes--;
-
+            underAttackDialog.underAttackDialog.SetActive(true);
             Destroy(car.gameObject);
             print("car destroy");
         }
