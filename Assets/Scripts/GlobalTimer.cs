@@ -16,6 +16,12 @@ public class GlobalTimer : MonoBehaviour
     public GameObject globalTimer;
     public bool isActivated;
 
+    public PastelManager pastelManager;
+
+    public CaravanePossessedManager CPM;
+
+    public GameManager GM;
+
     //public GameObject runningOutOfTime;
 
     public GoldManager goldManager;
@@ -83,6 +89,8 @@ public class GlobalTimer : MonoBehaviour
     public void noTutorial()
     {
         timeValue = 365;
+        GM.CaravannePosseded = 2;
+        CPM.myCaravanes = 2;
         waitingForCamMoove = true;
         isActivated = true;
     }
