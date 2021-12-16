@@ -32,6 +32,7 @@ public class FarmLocked : MonoBehaviour
             Goldmanager.myGold -= 150;
             Goldmanager.goldUpdate();
             gold.UpdateGold();
+            FindObjectOfType<audioManager>().Play("yeah");
             farmLocked = false;
             ButtonDisabledStart.SetActive(true);
 
@@ -41,6 +42,8 @@ public class FarmLocked : MonoBehaviour
         }
         else
         {
+            FindObjectOfType<audioManager>().Play("no");
+
             print("Vous ne pouvez pas débloquer la ferme");
         }
         

@@ -28,11 +28,14 @@ public class UnlockCities : MonoBehaviour
             Goldmanager.goldUpdate();
             gold.UpdateGold();
             CityLocked = false;
+            FindObjectOfType<audioManager>().Play("yeah");
             UnlockCityButton.SetActive(false);
             ButtonCityDisabledStart.SetActive(true);
         }
         else
         {
+            FindObjectOfType<audioManager>().Play("no");
+
             print("Vous ne pouvez pas débloquer la ville");
         }
 

@@ -89,6 +89,7 @@ public class Farm : MonoBehaviour
         if (currentTime == 0)
         {
             currentTime = startingTime;
+            FindObjectOfType<audioManager>().Play("faux");
             Pastelmanager.myPastel += 1 * CurrentFarmLevel;
             Pastelmanager.PastelUpdate();
             pastel.UpdatePastel();            

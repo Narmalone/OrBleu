@@ -30,6 +30,7 @@ public class JoueurDeplacement : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        FindObjectOfType<audioManager>().Play("musicAmbiant");
     }
 
     // Update is called once per frame

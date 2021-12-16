@@ -19,7 +19,6 @@ public class FirsttimeTutorial : MonoBehaviour
     public GameObject inTutorialFarm3;
 
     public GameObject buttonFarmLevel;
-
     public GameObject goBuyDisabled;
     public GameObject UnlockFirstCity;
 

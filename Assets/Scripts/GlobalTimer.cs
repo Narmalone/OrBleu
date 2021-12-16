@@ -50,7 +50,7 @@ public class GlobalTimer : MonoBehaviour
         if (timeValue > 0 && isActivated == true)
         {
 
-            
+
             timeValue -= Time.deltaTime;
             
            
@@ -71,6 +71,7 @@ public class GlobalTimer : MonoBehaviour
         if(timeValue < 60 && isActivated == true)
         {
             timerText.color = Color.red;
+            FindObjectOfType<audioManager>().Play("chrono");
         }
 
         DisplayTime(timeValue);

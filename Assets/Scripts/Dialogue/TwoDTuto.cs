@@ -195,9 +195,14 @@ public class TwoDTuto : MonoBehaviour
     public void CheckPastelCollect()
     {
 
-        if(firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 4)
+        if (firsTimeTutorial.isFirstTime == true && dialogue.DialogueCount == 4)
         {
             RecoltPastelObject.GetComponent<Button>().interactable = false;
+
+        }
+        else if (firsTimeTutorial.isFirstTime == false)
+        {
+            RecoltPastelObject.GetComponent<Button>().interactable = true;
 
         }
     }

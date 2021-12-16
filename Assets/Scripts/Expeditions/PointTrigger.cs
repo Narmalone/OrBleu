@@ -89,6 +89,8 @@ public class PointTrigger : MonoBehaviour
             Goldmanager.myGold += 150;
             Goldmanager.goldUpdate();
             gold.UpdateGold();
+            FindObjectOfType<audioManager>().Play("pieces");
+
             //si car est en route de danger
             if (car.CaraDanger)
             {

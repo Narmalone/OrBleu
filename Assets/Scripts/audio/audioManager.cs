@@ -7,15 +7,12 @@ using UnityEngine.Audio;
 public class audioManager : MonoBehaviour
 {
     public Sound[] sounds;
-
-
     void Awake()
     {
         foreach(Sound s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
             s.source.clip = s.clip;
-
             s.source.volume = s.volume;
         }
     }
@@ -26,4 +23,5 @@ public class audioManager : MonoBehaviour
 
         s.source.Play();
     }
+
 }
