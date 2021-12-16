@@ -39,7 +39,7 @@ public class GlobalTimer : MonoBehaviour
     private void Update()
     {
 
-        if(dialogue.DialogueCount > 15)
+        if(dialogue.DialogueCount > 16)
         {
             isActivated = true;
             //print("Activated true");
@@ -65,6 +65,12 @@ public class GlobalTimer : MonoBehaviour
         {
             timeValue = 0;
             VictoryScreen.SetActive(true);
+        }
+
+
+        if(timeValue < 60 && isActivated == true)
+        {
+            timerText.color = Color.red;
         }
 
         DisplayTime(timeValue);

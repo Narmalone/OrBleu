@@ -53,7 +53,7 @@ public class Dialogue : MonoBehaviour
         foreach(char c in lines[index].ToCharArray())
         {
             textComponent.text += c;
-            yield return new WaitForSeconds(textSpeed*Time.deltaTime);
+            yield return new WaitForSeconds(textSpeed);
         }
     }
 

@@ -111,7 +111,7 @@ public class FirsttimeTutorial : MonoBehaviour
 
     public void endTutorial()
     {
-        if(dialogue.DialogueCount > 15)
+        if(dialogue.DialogueCount > 16)
         {
             isFirstTime = false;
         }

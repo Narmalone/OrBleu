@@ -194,6 +194,8 @@ public class Expeditions : MonoBehaviour
                 }
                
             }
+            FindObjectOfType<audioManager>().Play("HorseScream");
+
         }
 
         //si la route safe est sélectionnée
@@ -231,6 +233,9 @@ public class Expeditions : MonoBehaviour
 
                 }
             }
+
+            FindObjectOfType<audioManager>().Play("HorseScream");
+
         }
     }
 }
